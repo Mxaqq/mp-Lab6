@@ -3,12 +3,8 @@
 
 
 
-/*!
-* Выполнил: Макадрай А.
-* Тесты для класса HashList
-*/
 
-//Проверка поиска сушествующего значения
+//ГЏГ°Г®ГўГҐГ°ГЄГ  ГЇГ®ГЁГ±ГЄГ  Г±ГіГёГҐГ±ГІГўГіГѕГ№ГҐГЈГ® Г§Г­Г Г·ГҐГ­ГЁГї
 TEST(HashList, Find_exists_value)
 {
 	HashList<string, int> table;
@@ -19,7 +15,7 @@ TEST(HashList, Find_exists_value)
 }
 
 
-//Проверка поиска не сушествующего значения
+//ГЏГ°Г®ГўГҐГ°ГЄГ  ГЇГ®ГЁГ±ГЄГ  Г­ГҐ Г±ГіГёГҐГ±ГІГўГіГѕГ№ГҐГЈГ® Г§Г­Г Г·ГҐГ­ГЁГї
 TEST(HashList, Find_not_exists_value)
 {
 	HashList<string, int> table;
@@ -29,7 +25,7 @@ TEST(HashList, Find_not_exists_value)
 	EXPECT_EQ(table.Find("4"), nullptr);
 }
 
-//Проверка добавления в таблицу нового элемента
+//ГЏГ°Г®ГўГҐГ°ГЄГ  Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї Гў ГІГ ГЎГ«ГЁГ¶Гі Г­Г®ГўГ®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ 
 TEST(HashList, insert_new_value)
 {
 	HashList<string, int> table;
@@ -39,7 +35,7 @@ TEST(HashList, insert_new_value)
 	EXPECT_EQ(*table.Find("2"), 2);
 }
 
-//Проверка добавления в таблицу нового элемента с сущиствующим ключом
+//ГЏГ°Г®ГўГҐГ°ГЄГ  Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї Гў ГІГ ГЎГ«ГЁГ¶Гі Г­Г®ГўГ®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ  Г± Г±ГіГ№ГЁГ±ГІГўГіГѕГ№ГЁГ¬ ГЄГ«ГѕГ·Г®Г¬
 TEST(LinerOnList, insert_new_value_repit_key)
 {
 	HashList<string, int> table;
@@ -50,7 +46,7 @@ TEST(LinerOnList, insert_new_value_repit_key)
 	EXPECT_EQ(temp, false);
 }
 
-//Удаление элемента из таблицы
+//Г“Г¤Г Г«ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ  ГЁГ§ ГІГ ГЎГ«ГЁГ¶Г»
 TEST(HashList, delete_line)
 {
 	HashList<string, int> table;
@@ -61,7 +57,7 @@ TEST(HashList, delete_line)
 	EXPECT_EQ(table.Find("2"), nullptr);
 }
 
-//Удаление элемента из таблицы с несущиствуюшим ключом
+//Г“Г¤Г Г«ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ  ГЁГ§ ГІГ ГЎГ«ГЁГ¶Г» Г± Г­ГҐГ±ГіГ№ГЁГ±ГІГўГіГѕГёГЁГ¬ ГЄГ«ГѕГ·Г®Г¬
 TEST(HashList, delete_line_not_key)
 {
 	HashList<string, int> table;
@@ -72,7 +68,7 @@ TEST(HashList, delete_line_not_key)
 	EXPECT_EQ(temp, false);
 }
 
-//Удаление элемента из пустой таблицы
+//Г“Г¤Г Г«ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ  ГЁГ§ ГЇГіГ±ГІГ®Г© ГІГ ГЎГ«ГЁГ¶Г»
 TEST(HashList, delete_line_empty_table)
 {
 	HashList<string, int> table;
@@ -80,7 +76,7 @@ TEST(HashList, delete_line_empty_table)
 	EXPECT_EQ(temp, false);
 }
 
-//Обход таблицы по элементно
+//ГЋГЎГµГ®Г¤ ГІГ ГЎГ«ГЁГ¶Г» ГЇГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ­Г®
 TEST(HashList, go_table)
 {
 	HashList<string, int> table;
@@ -94,7 +90,7 @@ TEST(HashList, go_table)
 	EXPECT_EQ(k, 6);
 }
 
-//Обход получение элемента
+//ГЋГЎГµГ®Г¤ ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ 
 TEST(HashList, get_value)
 {
 	HashList<string, int> table;
@@ -109,7 +105,7 @@ TEST(HashList, get_value)
 }
 
 
-//Обход получение ключей
+//ГЋГЎГµГ®Г¤ ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ ГЄГ«ГѕГ·ГҐГ©
 TEST(HashList, get_key)
 {
 	HashList<string, int> table;
