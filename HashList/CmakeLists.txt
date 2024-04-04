@@ -1,0 +1,19 @@
+#CmakeLists HashList
+cmake_minimum_required(VERSION 2.8)
+project(HashList)
+
+set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release)
+endif()
+
+#HashList
+include_directories(lib)
+add_subdirectory(lib)
+
+add_subdirectory(test)
+
+
+file(GLOB srcs "*.CPP")
+add_executable(${PROJECT_NAME} ${srcs})
+target_link_libraries(${PROJECT_NAME} gtest) 
