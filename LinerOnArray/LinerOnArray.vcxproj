@@ -130,7 +130,13 @@
     <Text Include="CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LinearOnArray.cpp" />
+    <ClCompile Include="LinearOnArray_test.cpp" />
+    <ClCompile Include="main_test.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinearOnArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
