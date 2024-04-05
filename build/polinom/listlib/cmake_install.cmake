@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/polinom/listlib
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/polinom/listlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

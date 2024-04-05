@@ -1,4 +1,4 @@
-# Install script for directory: D:/max
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,22 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/gtest/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/gtest/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/polinom/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/postfix/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/max/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/golov/source/repos/123/mp-Lab6/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

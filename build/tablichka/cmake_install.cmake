@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/tablichka
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/tablichka
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,36 +34,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/HashChain/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashChain/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/HashList/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashList/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/LinerOnArray/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/LinearOnList/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinearOnList/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/OrderedOnArray/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/OrderedOnArray/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/Tree/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/Tree/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/tablichka/test_tablichka/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/test_tablichka/cmake_install.cmake")
 endif()
 

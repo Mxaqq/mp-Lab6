@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{16FFBAB5-A0DA-3727-86EC-CF641EA782B9}</ProjectGuid>
+    <ProjectGuid>{6A45F94D-026C-32C4-8CA9-81D556B3AF83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\max\polinom\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/max/polinom/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/polinom/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/polinom/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\max\build\polinom\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/max/polinom/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/polinom/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/polinom/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\max\build\polinom\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/max/polinom/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/polinom/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/polinom/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\max\build\polinom\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/max/polinom/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/polinom/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/polinom/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,37 +160,37 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\max\build\polinom\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\max\build\ZERO_CHECK.vcxproj">
-      <Project>{BB29FF3A-87F3-349A-A543-50B6D6A8F1D6}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\ZERO_CHECK.vcxproj">
+      <Project>{D81EAE52-21E8-3AF0-8DB0-04C2569FF081}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\polinom\TPolinom_Test.vcxproj">
-      <Project>{32B24073-BBC3-31E5-8DF1-489064BAD6D6}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\TPolinom_Test.vcxproj">
+      <Project>{91E01F32-F8C0-3C1F-A3D3-F2A247EBA64A}</Project>
       <Name>TPolinom_Test</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\polinom\listlib\listlib.vcxproj">
-      <Project>{F8F6EAA8-E8CC-3797-9DA9-1646FE0CB821}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\listlib\listlib.vcxproj">
+      <Project>{14D4A4E4-2610-3460-8D70-107EB0B44FFE}</Project>
       <Name>listlib</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\polinom\polinom.vcxproj">
-      <Project>{F8A3225F-4DA4-3103-805B-8B0381D7F68C}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\polinom.vcxproj">
+      <Project>{EECD32D4-738E-39F1-AC15-A9CF2FDF71CE}</Project>
       <Name>polinom</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\polinom\polinomlib\polinomlib.vcxproj">
-      <Project>{AEEE8B46-939A-3B6F-8BEA-D5E9E352FC0C}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\polinomlib\polinomlib.vcxproj">
+      <Project>{C693121D-E441-3B45-B590-6F51AE45967E}</Project>
       <Name>polinomlib</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\polinom\test\test.vcxproj">
-      <Project>{5F4E69B3-D93D-3C4D-B462-CFA30184DE2A}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\test\test.vcxproj">
+      <Project>{0E68BE87-7A95-3F23-ADE3-8B9733BC8EA9}</Project>
       <Name>test</Name>
     </ProjectReference>
   </ItemGroup>

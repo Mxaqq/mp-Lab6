@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/postfix
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/postfix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,16 +34,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/postfix/postfixlib/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/postfixlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/postfix/testPos/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/testPos/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/postfix/stack/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/cmake_install.cmake")
 endif()
 

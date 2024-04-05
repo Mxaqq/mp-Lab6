@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{16FFBAB5-A0DA-3727-86EC-CF641EA782B9}</ProjectGuid>
+    <ProjectGuid>{6A45F94D-026C-32C4-8CA9-81D556B3AF83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\max\tablichka\LinerOnArray\CmakeLists.txt">
+    <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\CmakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/max/tablichka/LinerOnArray/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\max\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/max/tablichka/LinerOnArray/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\max\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/max/tablichka/LinerOnArray/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\max\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/max/tablichka/LinerOnArray/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\bin\cmake.exe -SD:/max -BD:/max/build --check-stamp-file D:/max/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,21 +160,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\max\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\max\build\ZERO_CHECK.vcxproj">
-      <Project>{BB29FF3A-87F3-349A-A543-50B6D6A8F1D6}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\ZERO_CHECK.vcxproj">
+      <Project>{D81EAE52-21E8-3AF0-8DB0-04C2569FF081}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\max\build\tablichka\LinerOnArray\LinerOnArray.vcxproj">
-      <Project>{3BCBD799-C45F-3526-948B-AC6C00D20F94}</Project>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinerOnArray.vcxproj">
+      <Project>{F462AF91-80E4-319A-8997-E1665EDD75CF}</Project>
       <Name>LinerOnArray</Name>
     </ProjectReference>
   </ItemGroup>

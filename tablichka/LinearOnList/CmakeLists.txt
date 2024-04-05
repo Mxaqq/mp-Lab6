@@ -2,5 +2,5 @@ cmake_minimum_required(VERSION 3.28)
 project(LinearOnList)
 
 add_executable(LinearOnList)
-target_sources(LinearOnList PRIVATE LinearOnList.cpp LinearOnList_test.cpp main_test.cpp)
+target_sources(LinearOnList PRIVATE LinearOnList.cpp LinearOnList_test.cpp main_test.cpp LinearOnList.h main.cpp)
 target_include_directories(LinearOnList PUBLIC include)

@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/postfix/testPos
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/postfix/testPos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

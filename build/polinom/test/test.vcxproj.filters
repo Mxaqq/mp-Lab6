@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\max\polinom\test\TestPolinom.cpp">
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\TestPolinom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\max\polinom\test\test_main.cpp">
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\test_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\max\polinom\test\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{08F0C61D-21DA-3C49-8EF1-09D37685FC9F}</UniqueIdentifier>
+      <UniqueIdentifier>{78633970-1897-3FD2-B8E1-93944B749A82}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

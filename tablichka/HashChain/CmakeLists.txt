@@ -3,6 +3,5 @@ cmake_minimum_required(VERSION 3.28)
 project(HashChain)
 
 add_executable(HashChain)
-target_sources(HashChain PRIVATE HashChain.cpp HashChain_main.cpp)
+target_sources(HashChain PRIVATE HashChain.cpp HashChain_main.cpp HashChain_test.cpp HashChain.h main.cpp)
 target_include_directories(HashChain PUBLIC include)
-target_include_directories(HashChain PUBLIC ${projectA_SOURCE_DIR}/include)

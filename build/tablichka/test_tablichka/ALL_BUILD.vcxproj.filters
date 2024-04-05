@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\max\tablichka\test_tablichka\CmakeLists.txt" />
+    <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

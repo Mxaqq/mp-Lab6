@@ -1,9 +1,9 @@
 # CMake generation dependency list for this directory.
-D:/max/CMakeLists.txt
-D:/max/build/CMakeFiles/3.28.0-rc1/CMakeCCompiler.cmake
-D:/max/build/CMakeFiles/3.28.0-rc1/CMakeCXXCompiler.cmake
-D:/max/build/CMakeFiles/3.28.0-rc1/CMakeRCCompiler.cmake
-D:/max/build/CMakeFiles/3.28.0-rc1/CMakeSystem.cmake
+C:/Users/golov/source/repos/123/mp-Lab6/CMakeLists.txt
+C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/3.28.0-rc1/CMakeCCompiler.cmake
+C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/3.28.0-rc1/CMakeCXXCompiler.cmake
+C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/3.28.0-rc1/CMakeRCCompiler.cmake
+C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/3.28.0-rc1/CMakeSystem.cmake
 D:/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in
 D:/share/cmake-3.28/Modules/CMakeCCompilerABI.c
 D:/share/cmake-3.28/Modules/CMakeCInformation.cmake

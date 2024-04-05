@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/postfix/stack/testStack
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/postfix/stack/testStack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

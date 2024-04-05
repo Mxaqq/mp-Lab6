@@ -2,5 +2,5 @@ cmake_minimum_required(VERSION 3.28)
 project(LinearOnArray)
 
 add_executable(LinerOnArray)
-target_sources(LinerOnArray PRIVATE LinearOnArray.cpp LinearOnArray_test.cpp main_test.cpp)
+target_sources(LinerOnArray PRIVATE LinearOnArray.cpp LinearOnArray_test.cpp main_test.cpp main.cpp LinearOnArray.h )
 target_include_directories(LinerOnArray PUBLIC include)

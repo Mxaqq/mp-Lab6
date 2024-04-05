@@ -3,5 +3,5 @@ cmake_minimum_required(VERSION 3.28)
 project(HashList)
 
 add_executable(HashList)
-target_sources(HashList PRIVATE HashList.cpp HashList_test.cpp main_test.cpp)
+target_sources(HashList PRIVATE HashList.cpp HashList_test.cpp main_test.cpp HashList.h main.cpp)
 target_include_directories(HashList PUBLIC include)

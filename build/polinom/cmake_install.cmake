@@ -1,4 +1,4 @@
-# Install script for directory: D:/max/polinom
+# Install script for directory: C:/Users/golov/source/repos/123/mp-Lab6/polinom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,16 +34,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/polinom/listlib/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/listlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/polinom/polinomlib/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/polinomlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/max/build/polinom/test/cmake_install.cmake")
+  include("C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/test/cmake_install.cmake")
 endif()
 
