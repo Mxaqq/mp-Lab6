@@ -1,5 +1,5 @@
 #include <iostream>
-#include "table.h"
+#include "tablichka.h"
 #include "maneg.h"
 #include "postfix.h"
 #include <conio.h>
