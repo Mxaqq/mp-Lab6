@@ -1,12 +1,6 @@
 #include <iostream>
 #include "stacklib/stacklib.h"
 using namespace std;
-
-/*
-* Выполнил: Филатьев В.
-* main для проверки работы класса стек
-*/
-
 void f(MyStack<double>& a) {
 	cout << a.size();
 }
