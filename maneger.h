@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "table.h"
+#include "tablichka.h"
 #include "LinearOnArray.h"
 #include "LinearOnList.h"
 #include "OrderedOnArray.h"
@@ -13,8 +13,8 @@
 using namespace std;
 
 /*!
-* Выполнил: Макадрай А.
-* Класс ячейки для списка
+* Г‚Г»ГЇГ®Г«Г­ГЁГ«: ГЊГ ГЄГ Г¤Г°Г Г© ГЂ.
+* ГЉГ«Г Г±Г± ГїГ·ГҐГ©ГЄГЁ Г¤Г«Гї Г±ГЇГЁГ±ГЄГ 
 */
 
 struct Line
