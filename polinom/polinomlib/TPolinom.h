@@ -1,10 +1,10 @@
 
-#include "../listlib\TList.h"
+#include "../listlib/TList.h"
 #include "TMonom.h"
 #include <string>
 
 
-const int nonDisplayedZeros = 4; // Количество неотображаемых нулей при выводе коэффициента полинома
+const int nonDisplayedZeros = 4; // ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г­ГҐГ®ГІГ®ГЎГ°Г Г¦Г ГҐГ¬Г»Гµ Г­ГіГ«ГҐГ© ГЇГ°ГЁ ГўГ»ГўГ®Г¤ГҐ ГЄГ®ГЅГґГґГЁГ¶ГЁГҐГ­ГІГ  ГЇГ®Г«ГЁГ­Г®Г¬Г 
 
 
 string RemoveSpace(string s);
@@ -15,16 +15,16 @@ public:
 	TPolinom(TPolinom& other);
 	TPolinom() {};
 	TPolinom(string str);
-	TPolinom& operator=(TPolinom& other); // присваивание
-	TPolinom& operator+(TPolinom& q); // сложение полиномов
+	TPolinom& operator=(TPolinom& other); // ГЇГ°ГЁГ±ГўГ ГЁГўГ Г­ГЁГҐ
+	TPolinom& operator+(TPolinom& q); // Г±Г«Г®Г¦ГҐГ­ГЁГҐ ГЇГ®Г«ГЁГ­Г®Г¬Г®Гў
 	void setPolinom(string s);
-	// дополнительно можно реализовать:
-	void operator+(TMonom newMonom); // добавление монома
-	TPolinom operator*(TMonom monom); // умножение мономов 
-	TPolinom operator*(double coef); // умножение полинома на число 
-	TPolinom operator* (TPolinom& other); // умножение полиномов
-	bool operator==(TPolinom& other); // сравнение полиномов на равенство
-	string ToString(); // перевод в строку
+	// Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г® Г¬Г®Г¦Г­Г® Г°ГҐГ Г«ГЁГ§Г®ГўГ ГІГј:
+	void operator+(TMonom newMonom); // Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ Г¬Г®Г­Г®Г¬Г 
+	TPolinom operator*(TMonom monom); // ГіГ¬Г­Г®Г¦ГҐГ­ГЁГҐ Г¬Г®Г­Г®Г¬Г®Гў 
+	TPolinom operator*(double coef); // ГіГ¬Г­Г®Г¦ГҐГ­ГЁГҐ ГЇГ®Г«ГЁГ­Г®Г¬Г  Г­Г  Г·ГЁГ±Г«Г® 
+	TPolinom operator* (TPolinom& other); // ГіГ¬Г­Г®Г¦ГҐГ­ГЁГҐ ГЇГ®Г«ГЁГ­Г®Г¬Г®Гў
+	bool operator==(TPolinom& other); // Г±Г°Г ГўГ­ГҐГ­ГЁГҐ ГЇГ®Г«ГЁГ­Г®Г¬Г®Гў Г­Г  Г°Г ГўГҐГ­Г±ГІГўГ®
+	string ToString(); // ГЇГҐГ°ГҐГўГ®Г¤ Гў Г±ГІГ°Г®ГЄГі
 };
 void TPolinom::setPolinom(string s) {
 	list.clear();
