@@ -1,11 +1,6 @@
 #include <gtest.h>
 #include "..\stack\stacklib\stacklib.h"
 
-/*
-* Выполнил: Филатьев В.
-* Тесты для проверки работы класса стек
-*/
-
 TEST(Stack, you_can_create_an_object)
 {
 	ASSERT_NO_THROW(MyStack<int> a);
