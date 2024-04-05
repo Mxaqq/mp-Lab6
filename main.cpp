@@ -1,6 +1,6 @@
 #include <iostream>
 #include "table.h"
-#include "maneger.h"
+#include "maneg.h"
 #include "postfix.h"
 #include <conio.h>
 #include <string>
@@ -11,7 +11,7 @@ int vibor(int kol);
 int nowvibor(int kol);
 
 void NotKey() {
-	cout << "Äàííûé êëþ÷ â òàáëèöå íå îáíàðóæåí" << endl;
+	cout << "Ã„Ã Ã­Ã­Ã»Ã© ÃªÃ«Ã¾Ã· Ã¢ Ã²Ã Ã¡Ã«Ã¨Ã¶Ã¥ Ã­Ã¥ Ã®Ã¡Ã­Ã Ã°Ã³Ã¦Ã¥Ã­" << endl;
 	system("pause");
 	system("cls");
 }
@@ -19,7 +19,7 @@ void NotKey() {
 TPolinom* GetPolinom(maneger& men, string& k = string("key")) {
 	TPolinom* temp;
 	do {
-		cout << "Ââåäèòå êëþ÷:" << endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ«Ã¾Ã·:" << endl;
 		getline(cin, k);
 		while (k == "")
 			getline(cin, k);
@@ -39,13 +39,13 @@ int main() {
 	int nowwibor;
 	do {
 		system("cls");
-		cout << "\tÌåíþ:\n1)Îïåðàöèè íàä îòäåëüíûìè ïîëèíîìàìè\n2)Îïåðàöèè â âûðàæåíèÿõ èç ïîëèíîìîâ\n3)Îïåðàöèè íàä òàáëèöàìè\n4)Âûáîð òàáëèö\n";
+		cout << "\tÃŒÃ¥Ã­Ã¾:\n1)ÃŽÃ¯Ã¥Ã°Ã Ã¶Ã¨Ã¨ Ã­Ã Ã¤ Ã®Ã²Ã¤Ã¥Ã«Ã¼Ã­Ã»Ã¬Ã¨ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã Ã¬Ã¨\n2)ÃŽÃ¯Ã¥Ã°Ã Ã¶Ã¨Ã¨ Ã¢ Ã¢Ã»Ã°Ã Ã¦Ã¥Ã­Ã¨Ã¿Ãµ Ã¨Ã§ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã®Ã¢\n3)ÃŽÃ¯Ã¥Ã°Ã Ã¶Ã¨Ã¨ Ã­Ã Ã¤ Ã²Ã Ã¡Ã«Ã¨Ã¶Ã Ã¬Ã¨\n4)Ã‚Ã»Ã¡Ã®Ã° Ã²Ã Ã¡Ã«Ã¨Ã¶\n";
 		wibor = vibor(5);
 		system("cls");
 		if (wibor == 1) {
 
 			system("cls");
-			cout << "\tÌåíþ:\n1)Âû÷èñëåíèå â òî÷êå\n2)Óìíîæåíèå íà êîíñòàíòó\n3)Ïðîèçâîäíàÿ\n4)Èíòåãðàë\n";
+			cout << "\tÃŒÃ¥Ã­Ã¾:\n1)Ã‚Ã»Ã·Ã¨Ã±Ã«Ã¥Ã­Ã¨Ã¥ Ã¢ Ã²Ã®Ã·ÃªÃ¥\n2)Ã“Ã¬Ã­Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã­Ã  ÃªÃ®Ã­Ã±Ã²Ã Ã­Ã²Ã³\n3)ÃÃ°Ã®Ã¨Ã§Ã¢Ã®Ã¤Ã­Ã Ã¿\n4)ÃˆÃ­Ã²Ã¥Ã£Ã°Ã Ã«\n";
 			nowwibor = nowvibor(5);
 			system("cls");
 			if (nowwibor == 1) {
@@ -66,7 +66,7 @@ int main() {
 				int n;
 				string k;
 				TPolinom polinom = *GetPolinom(men, k);
-				cout << "Ââåäèòå êîíñòàíòó:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã­Ã±Ã²Ã Ã­Ã²Ã³:" << endl;
 				cin >> n;
 				polinom = polinom.operator*(n);
 				men.Insert(k + "*" + to_string(n), polinom);
@@ -75,7 +75,7 @@ int main() {
 			if (nowwibor == 3) {
 				char n; string k;
 				TPolinom polin = *GetPolinom(men, k);
-				cout << "Ââåäèòå ïî êàêîé ïåðåìåííîé õîòèòå íàéòè ïðîèçâîäíóþ:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã® ÃªÃ ÃªÃ®Ã© Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã®Ã© ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã­Ã Ã©Ã²Ã¨ Ã¯Ã°Ã®Ã¨Ã§Ã¢Ã®Ã¤Ã­Ã³Ã¾:" << endl;
 				cin >> n;
 				men.Insert(k + "_der", polin.derivative(n));
 				nowwibor = 5;
@@ -83,7 +83,7 @@ int main() {
 			if (nowwibor == 4) {
 				char n; string k;
 				TPolinom polin = *GetPolinom(men, k);
-				cout << "Ââåäèòå ïî êàêîé ïåðåìåííîé õîòèòå âû÷èñëèòü èíòåãðàë:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã® ÃªÃ ÃªÃ®Ã© Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã®Ã© ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã¢Ã»Ã·Ã¨Ã±Ã«Ã¨Ã²Ã¼ Ã¨Ã­Ã²Ã¥Ã£Ã°Ã Ã«:" << endl;
 				cin >> n;
 				men.Insert(k + "_ins", polin.Integral(n));
 				nowwibor = 5;
@@ -98,7 +98,7 @@ int main() {
 		{
 
 			system("cls");
-			cout << "\tÌåíþ:\n1)Ñëîæåíèå\n2)Âû÷èòàíèå\n3)Óìíîæåíèå íà êîíñòàíòó\n4)Óìíîæåíèå ïîëèíîìîâ\n5)Äåëåíèå ïîëèíîìîâ\n";
+			cout << "\tÃŒÃ¥Ã­Ã¾:\n1)Ã‘Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥\n2)Ã‚Ã»Ã·Ã¨Ã²Ã Ã­Ã¨Ã¥\n3)Ã“Ã¬Ã­Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã­Ã  ÃªÃ®Ã­Ã±Ã²Ã Ã­Ã²Ã³\n4)Ã“Ã¬Ã­Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã®Ã¢\n5)Ã„Ã¥Ã«Ã¥Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã®Ã¢\n";
 			nowwibor = nowvibor(6);
 			system("cls");
 			if (nowwibor == 1) {
@@ -118,7 +118,7 @@ int main() {
 			if (nowwibor == 3) {
 				double n; string k;
 				TPolinom polinom = *GetPolinom(men, k);
-				cout << "Ââåäèòå êîíñòàíòó:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã­Ã±Ã²Ã Ã­Ã²Ã³:" << endl;
 				cin >> n;
 				polinom = polinom * n;
 				men.Insert(k + "*" + to_string(n), polinom);
@@ -147,15 +147,15 @@ int main() {
 		if (wibor == 3) {
 
 			system("cls");
-			cout << "\tÌåíþ:\n1)Äîáàâëåíèå ïîëèíîìà\n2)Óäàëåíèå ïîëèíîìà\n3)Ïîèñê\n4)Âûâîä àêòèâíîé òàáëèöû íà ýêðàí\n";
+			cout << "\tÃŒÃ¥Ã­Ã¾:\n1)Ã„Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã \n2)Ã“Ã¤Ã Ã«Ã¥Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬Ã \n3)ÃÃ®Ã¨Ã±Ãª\n4)Ã‚Ã»Ã¢Ã®Ã¤ Ã ÃªÃ²Ã¨Ã¢Ã­Ã®Ã© Ã²Ã Ã¡Ã«Ã¨Ã¶Ã» Ã­Ã  Ã½ÃªÃ°Ã Ã­\n";
 			nowwibor = nowvibor(5);
 			system("cls");
 			if (nowwibor == 1) {
-				cout << "Ââåäèòå êëþ÷:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ«Ã¾Ã·:" << endl;
 				string k; getline(cin, k);
 				while (k == "")
 					getline(cin, k);
-				cout << "Ââåäèòå ïîëèíîì:" << endl;
+				cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã®Ã«Ã¨Ã­Ã®Ã¬:" << endl;
 				string s; getline(cin, s);
 				while (s == "")
 					getline(cin, s);
@@ -185,7 +185,7 @@ int main() {
 		if (wibor == 4) {
 
 			system("cls");
-			cout << "\tÌåíþ:\n1)Ëèíåéíàÿ òàáëèöà íà ìàññèâå\n2)Ëèíåéíàÿ òàáëèöà íà ñïèñêå\n3)Óïîðÿäî÷åííàÿ òàáëèöà íà ìàññèâå\n4)Äåðåâî\n5)Ïåðâàÿ õýø-òàáëèöà\n6)Âòîðàÿ õýø-òàáëèöà\n";
+			cout << "\tÃŒÃ¥Ã­Ã¾:\n1)Ã‹Ã¨Ã­Ã¥Ã©Ã­Ã Ã¿ Ã²Ã Ã¡Ã«Ã¨Ã¶Ã  Ã­Ã  Ã¬Ã Ã±Ã±Ã¨Ã¢Ã¥\n2)Ã‹Ã¨Ã­Ã¥Ã©Ã­Ã Ã¿ Ã²Ã Ã¡Ã«Ã¨Ã¶Ã  Ã­Ã  Ã±Ã¯Ã¨Ã±ÃªÃ¥\n3)Ã“Ã¯Ã®Ã°Ã¿Ã¤Ã®Ã·Ã¥Ã­Ã­Ã Ã¿ Ã²Ã Ã¡Ã«Ã¨Ã¶Ã  Ã­Ã  Ã¬Ã Ã±Ã±Ã¨Ã¢Ã¥\n4)Ã„Ã¥Ã°Ã¥Ã¢Ã®\n5)ÃÃ¥Ã°Ã¢Ã Ã¿ ÃµÃ½Ã¸-Ã²Ã Ã¡Ã«Ã¨Ã¶Ã \n6)Ã‚Ã²Ã®Ã°Ã Ã¿ ÃµÃ½Ã¸-Ã²Ã Ã¡Ã«Ã¨Ã¶Ã \n";
 			nowwibor = nowvibor(7);
 			system("cls");
 			if (nowwibor == 1) {
