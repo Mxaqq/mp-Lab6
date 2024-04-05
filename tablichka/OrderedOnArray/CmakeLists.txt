@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(OrderedOnArray)
+
+add_executable(OrderedOnArray)
+target_sources(OrderedOnArray PRIVATE OrderedOnArray.cpp OrderOnArray_test.cpp main_test.cpp)
+target_include_directories(OrderedOnArray PUBLIC include)

@@ -1,0 +1,13 @@
+#Проекд таблицы с виртуальной таблицой
+cmake_minimum_required(VERSION 3.28)
+project(tablichka)
+
+add_subdirectory(HashChain)
+add_subdirectory(HashList)
+add_subdirectory(LinerOnArray)
+add_subdirectory(LinearOnList)
+add_subdirectory(OrderedOnArray)
+add_subdirectory(Tree)
+add_subdirectory(test_tablichka)
+
+add_executable(tablichka main.cpp)

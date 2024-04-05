@@ -1,0 +1,7 @@
+#Библиотека stack
+cmake_minimum_required(VERSION 3.28)
+project(stacklib)
+
+add_library(stacklib STATIC)
+target_sources(stacklib PRIVATE TStack.h TStack.cpp)
+target_include_directories(stacklib PUBLIC include)

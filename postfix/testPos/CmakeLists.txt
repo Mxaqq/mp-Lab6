@@ -1,0 +1,7 @@
+#Тест
+cmake_minimum_required(VERSION 3.28)
+project(testPos)
+
+add_executable(testPos)
+target_sources(testPos PRIVATE postfix_test.cpp)
+target_link_libraries(testPos PRIVATE postfixlib)

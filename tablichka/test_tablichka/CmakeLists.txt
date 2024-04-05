@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(test_tablichka)
+
+add_executable(test_tablichka)
+target_sources(test_tablichka PRIVATE main_test.cpp table_test.cpp)
+target_include_directories(test_tablichka PUBLIC include)

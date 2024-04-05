@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(Tree)
+
+add_executable(Tree)
+target_sources(Tree PRIVATE Tree.cpp Tree_test.cpp main_test.cpp)
+target_include_directories(Tree PUBLIC include)

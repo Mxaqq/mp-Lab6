@@ -1,0 +1,8 @@
+#CmakeLists для библиотеки postfixlib
+cmake_minimum_required(VERSION 3.28)
+project(postfixlib)
+
+add_library(postfixlib STATIC)
+target_sources(postfixlib PRIVATE postfix.h postfix.cpp)
+target_sources(postfixlib PRIVATE TFormula.h TFormula.cpp)
+target_include_directories(postfixlib PUBLIC include)

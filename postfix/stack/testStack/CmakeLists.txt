@@ -1,0 +1,7 @@
+#Тест
+cmake_minimum_required(VERSION 3.28)
+project(testStack)
+
+add_executable(testStack)
+target_sources(testStack PRIVATE Stack_test.cpp Stack_main.cpp)
+target_link_libraries(testStack PRIVATE stacklib)
