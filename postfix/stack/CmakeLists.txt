@@ -3,4 +3,6 @@ cmake_minimum_required(VERSION 3.28)
 project(stack)
 
 add_subdirectory(stacklib)
-add_subdirectory(testStack)	
+add_subdirectory(testStack)
+
+add_executable(stack main.cpp)	

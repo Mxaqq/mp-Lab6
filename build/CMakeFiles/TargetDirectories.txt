@@ -17,6 +17,7 @@ C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/postfixlib/CMakeFiles/post
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/postfixlib/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/testPos/CMakeFiles/testPos.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/testPos/CMakeFiles/ALL_BUILD.dir
+C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/CMakeFiles/stack.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/stacklib/CMakeFiles/stacklib.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/stacklib/CMakeFiles/ALL_BUILD.dir

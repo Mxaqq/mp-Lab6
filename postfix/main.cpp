@@ -2,16 +2,9 @@
 #include <conio.h>
 #include <string>
 #include <Windows.h>
-#include "stack/stacklib/stacklib.h"
+#include "stack/stacklib/TStack.h"
 #include "postfixlib/postfix.h"
 using namespace std;
-
-
-/*
-* Выполнил: Филатьев В.
-* main для проверки работы преобразования и подсчета в подфиксной форме
-*/
-
 
 
 int vibor(int kol);

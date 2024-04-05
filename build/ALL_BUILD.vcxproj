@@ -225,6 +225,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{42F02FBD-F527-32EB-9D73-85C9DFF98A92}</Project>
       <Name>postfixlib</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\postfix\stack\stack.vcxproj">
+      <Project>{17B92D9F-ED73-3FFE-B29E-68A318B2A02A}</Project>
+      <Name>stack</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\postfix\stack\stacklib\stacklib.vcxproj">
       <Project>{FA572255-BAC4-3C62-8E83-44BC67B18432}</Project>
       <Name>stacklib</Name>
