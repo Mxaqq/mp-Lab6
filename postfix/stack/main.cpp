@@ -1,5 +1,5 @@
 #include <iostream>
-#include "stacklib/stacklib.h"
+#include "stacklib/TStack.h"
 using namespace std;
 
 void f(MyStack<double>& a) {
