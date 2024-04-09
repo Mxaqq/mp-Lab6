@@ -1,6 +1,5 @@
-#include <gtest.h>
+#include <..\..\gtest\gtest.h>
 #include "Tree.h"
-#include <gtest.h>
 #include <string>
 
 

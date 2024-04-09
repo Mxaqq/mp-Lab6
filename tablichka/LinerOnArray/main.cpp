@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 #include "LinearOnArray.h"
-#include "../tablichka.h"
+#include "..\..\tablichka\tablichka.h"
 using namespace std;
 
 
 int main() {
 	table<string, TPolinom>* table;
-	LinerOnArray<string, TPolinom> temp;
+	LinearOnArray<string, TPolinom> temp;
 	table = &temp;
 
 

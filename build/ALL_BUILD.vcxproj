@@ -181,21 +181,29 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{E0A4ED29-147D-33DF-9B78-8F9ADEA5A512}</Project>
       <Name>HashList</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinearOnArray.vcxproj">
+      <Project>{06C05512-DA55-3E77-9837-08498D98CC5D}</Project>
+      <Name>LinearOnArray</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinearOnList\LinearOnList.vcxproj">
       <Project>{66398C66-4DD6-3ABA-814C-E49338516388}</Project>
       <Name>LinearOnList</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinerOnArray.vcxproj">
-      <Project>{F462AF91-80E4-319A-8997-E1665EDD75CF}</Project>
-      <Name>LinerOnArray</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\OrderedOnArray\OrderedOnArray.vcxproj">
       <Project>{83E41196-E80B-356C-908B-AFC568B797F0}</Project>
       <Name>OrderedOnArray</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\TPolinom_Test.vcxproj">
-      <Project>{91E01F32-F8C0-3C1F-A3D3-F2A247EBA64A}</Project>
-      <Name>TPolinom_Test</Name>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\test\TestPolinom.vcxproj">
+      <Project>{E2409B7E-8CA4-34F0-8E02-DE6CC3E27B94}</Project>
+      <Name>TestPolinom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\test_tablichka\TestTable.vcxproj">
+      <Project>{D5A362BA-982E-3EBC-9D9F-42506C732B9E}</Project>
+      <Name>TestTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\postfix\stack\testStack\Test_Stack.vcxproj">
+      <Project>{D2F4951F-E0A5-37FD-9C05-0CF57A0DFA4D}</Project>
+      <Name>Test_Stack</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Tree.vcxproj">
       <Project>{A856848A-48AF-30D4-A66A-2758E6944D8C}</Project>
@@ -237,21 +245,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{BAF1ECAC-6694-3DE1-9EEA-9974F62A4C84}</Project>
       <Name>tablichka</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\test\test.vcxproj">
-      <Project>{0E68BE87-7A95-3F23-ADE3-8B9733BC8EA9}</Project>
-      <Name>test</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\postfix\testPos\testPos.vcxproj">
       <Project>{79E962CF-D9EE-3699-B491-6687BD6B050B}</Project>
       <Name>testPos</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\postfix\stack\testStack\testStack.vcxproj">
-      <Project>{583255B1-0D71-3063-947C-92E3ACBF96E8}</Project>
-      <Name>testStack</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\test_tablichka\test_tablichka.vcxproj">
-      <Project>{69F8409D-B525-3FF2-B9B9-89F3E0FC0B91}</Project>
-      <Name>test_tablichka</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

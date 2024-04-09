@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../tablichka.h"
+#include "..\..\tablichka\tablichka.h"
 #include <vector>
 #include <list>
 using namespace std;

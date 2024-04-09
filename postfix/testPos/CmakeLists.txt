@@ -2,6 +2,11 @@
 cmake_minimum_required(VERSION 3.28)
 project(testPos)
 
-add_executable(testPos)
-target_sources(testPos PRIVATE postfix_test.cpp)
-target_link_libraries(testPos PRIVATE postfixlib)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(testPos postfix_main.cpp postfix_test.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(testPos gtest)

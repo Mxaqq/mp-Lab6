@@ -181,17 +181,21 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{E0A4ED29-147D-33DF-9B78-8F9ADEA5A512}</Project>
       <Name>HashList</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinearOnArray.vcxproj">
+      <Project>{06C05512-DA55-3E77-9837-08498D98CC5D}</Project>
+      <Name>LinearOnArray</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinearOnList\LinearOnList.vcxproj">
       <Project>{66398C66-4DD6-3ABA-814C-E49338516388}</Project>
       <Name>LinearOnList</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinerOnArray.vcxproj">
-      <Project>{F462AF91-80E4-319A-8997-E1665EDD75CF}</Project>
-      <Name>LinerOnArray</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\OrderedOnArray\OrderedOnArray.vcxproj">
       <Project>{83E41196-E80B-356C-908B-AFC568B797F0}</Project>
       <Name>OrderedOnArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\test_tablichka\TestTable.vcxproj">
+      <Project>{D5A362BA-982E-3EBC-9D9F-42506C732B9E}</Project>
+      <Name>TestTable</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Tree.vcxproj">
       <Project>{A856848A-48AF-30D4-A66A-2758E6944D8C}</Project>
@@ -200,10 +204,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\tablichka.vcxproj">
       <Project>{BAF1ECAC-6694-3DE1-9EEA-9974F62A4C84}</Project>
       <Name>tablichka</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\test_tablichka\test_tablichka.vcxproj">
-      <Project>{69F8409D-B525-3FF2-B9B9-89F3E0FC0B91}</Project>
-      <Name>test_tablichka</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

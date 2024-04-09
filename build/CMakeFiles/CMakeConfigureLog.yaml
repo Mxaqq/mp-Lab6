@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.0+6f08c67f3 for .NET Framework
-      Сборка начата 05.04.2024 7:53:08.
+      Сборка начата 09.04.2024 8:46:09.
       Included response file: D:\\Новая папка\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
@@ -52,7 +52,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.60
+      Прошло времени 00:00:00.59
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +78,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.0+6f08c67f3 for .NET Framework
-      Сборка начата 05.04.2024 7:53:08.
+      Сборка начата 09.04.2024 8:46:09.
       Included response file: D:\\Новая папка\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
@@ -106,7 +106,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.49
+      Прошло времени 00:00:00.47
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,49 +125,49 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-047waj"
-      binary: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-047waj"
+      source: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-dxmljw"
+      binary: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-dxmljw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-047waj'
+        Change Dir: 'C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-dxmljw'
         
-        Run Build Command(s): "D:/Новая папка/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a26ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/Новая папка/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_117d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.5.0+6f08c67f3 for .NET Framework
-        Сборка начата 05.04.2024 7:53:09.
+        Сборка начата 09.04.2024 8:46:10.
         Included response file: D:\\Новая папка\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-047waj\\cmTC_a26ad.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxmljw\\cmTC_117d4.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_a26ad.dir\\Debug\\".
-          Создание каталога "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-047waj\\Debug\\".
-          Создание каталога "cmTC_a26ad.dir\\Debug\\cmTC_a26ad.tlog\\".
+          Создание каталога "cmTC_117d4.dir\\Debug\\".
+          Создание каталога "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxmljw\\Debug\\".
+          Создание каталога "cmTC_117d4.dir\\Debug\\cmTC_117d4.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_a26ad.dir\\Debug\\cmTC_a26ad.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_117d4.dir\\Debug\\cmTC_117d4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a26ad.dir\\Debug\\\\" /Fd"cmTC_a26ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_117d4.dir\\Debug\\\\" /Fd"cmTC_117d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32215 для x64
           CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a26ad.dir\\Debug\\\\" /Fd"cmTC_a26ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_117d4.dir\\Debug\\\\" /Fd"cmTC_117d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-047waj\\Debug\\cmTC_a26ad.exe" /INCREMENTAL /ILK:"cmTC_a26ad.dir\\Debug\\cmTC_a26ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-047waj/Debug/cmTC_a26ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-047waj/Debug/cmTC_a26ad.lib" /MACHINE:X64  /machine:x64 cmTC_a26ad.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_a26ad.vcxproj -> C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-047waj\\Debug\\cmTC_a26ad.exe
+          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxmljw\\Debug\\cmTC_117d4.exe" /INCREMENTAL /ILK:"cmTC_117d4.dir\\Debug\\cmTC_117d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-dxmljw/Debug/cmTC_117d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-dxmljw/Debug/cmTC_117d4.lib" /MACHINE:X64  /machine:x64 cmTC_117d4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_117d4.vcxproj -> C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxmljw\\Debug\\cmTC_117d4.exe
         FinalizeBuildStatus:
-          Файл "cmTC_a26ad.dir\\Debug\\cmTC_a26ad.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_a26ad.dir\\Debug\\cmTC_a26ad.tlog\\cmTC_a26ad.lastbuildstate".
-        Сборка проекта "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-047waj\\cmTC_a26ad.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_117d4.dir\\Debug\\cmTC_117d4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_117d4.dir\\Debug\\cmTC_117d4.tlog\\cmTC_117d4.lastbuildstate".
+        Сборка проекта "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxmljw\\cmTC_117d4.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.50
+        Прошло времени 00:00:00.49
         
       exitCode: 0
   -
@@ -179,49 +179,49 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-4wk4sq"
-      binary: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-4wk4sq"
+      source: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-xwhl7i"
+      binary: "C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-xwhl7i"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-4wk4sq'
+        Change Dir: 'C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-xwhl7i'
         
-        Run Build Command(s): "D:/Новая папка/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05a47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/Новая папка/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_975c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.5.0+6f08c67f3 for .NET Framework
-        Сборка начата 05.04.2024 7:53:10.
+        Сборка начата 09.04.2024 8:46:11.
         Included response file: D:\\Новая папка\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4wk4sq\\cmTC_05a47.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhl7i\\cmTC_975c7.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_05a47.dir\\Debug\\".
-          Создание каталога "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4wk4sq\\Debug\\".
-          Создание каталога "cmTC_05a47.dir\\Debug\\cmTC_05a47.tlog\\".
+          Создание каталога "cmTC_975c7.dir\\Debug\\".
+          Создание каталога "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhl7i\\Debug\\".
+          Создание каталога "cmTC_975c7.dir\\Debug\\cmTC_975c7.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_05a47.dir\\Debug\\cmTC_05a47.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_975c7.dir\\Debug\\cmTC_975c7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_05a47.dir\\Debug\\\\" /Fd"cmTC_05a47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_975c7.dir\\Debug\\\\" /Fd"cmTC_975c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32215 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_05a47.dir\\Debug\\\\" /Fd"cmTC_05a47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_975c7.dir\\Debug\\\\" /Fd"cmTC_975c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4wk4sq\\Debug\\cmTC_05a47.exe" /INCREMENTAL /ILK:"cmTC_05a47.dir\\Debug\\cmTC_05a47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-4wk4sq/Debug/cmTC_05a47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-4wk4sq/Debug/cmTC_05a47.lib" /MACHINE:X64  /machine:x64 cmTC_05a47.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_05a47.vcxproj -> C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4wk4sq\\Debug\\cmTC_05a47.exe
+          D:\\Новая папка\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhl7i\\Debug\\cmTC_975c7.exe" /INCREMENTAL /ILK:"cmTC_975c7.dir\\Debug\\cmTC_975c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-xwhl7i/Debug/cmTC_975c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/CMakeScratch/TryCompile-xwhl7i/Debug/cmTC_975c7.lib" /MACHINE:X64  /machine:x64 cmTC_975c7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_975c7.vcxproj -> C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhl7i\\Debug\\cmTC_975c7.exe
         FinalizeBuildStatus:
-          Файл "cmTC_05a47.dir\\Debug\\cmTC_05a47.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_05a47.dir\\Debug\\cmTC_05a47.tlog\\cmTC_05a47.lastbuildstate".
-        Сборка проекта "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4wk4sq\\cmTC_05a47.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_975c7.dir\\Debug\\cmTC_975c7.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_975c7.dir\\Debug\\cmTC_975c7.tlog\\cmTC_975c7.lastbuildstate".
+        Сборка проекта "C:\\Users\\golov\\source\\repos\\123\\mp-Lab6\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xwhl7i\\cmTC_975c7.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.51
+        Прошло времени 00:00:00.50
         
       exitCode: 0
 ...

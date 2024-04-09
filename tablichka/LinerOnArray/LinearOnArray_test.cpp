@@ -1,4 +1,4 @@
-#include <gtest.h>
+#include <..\..\gtest\gtest.h>
 #include <string>
 #include "LinearOnArray.h"
 
@@ -6,7 +6,7 @@
 //Проверка поиска сушествующего значения
 TEST(LinearOnArray, Find_exists_value)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1",1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -16,7 +16,7 @@ TEST(LinearOnArray, Find_exists_value)
 //Проверка поиска не сушествующего значения
 TEST(LinearOnArray, Find_not_exists_value)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -26,7 +26,7 @@ TEST(LinearOnArray, Find_not_exists_value)
 //Проверка добавления в таблицу нового элемента
 TEST(LinearOnArray, insert_new_value)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -36,7 +36,7 @@ TEST(LinearOnArray, insert_new_value)
 //Проверка добавления в таблицу нового элемента с сущиствующим ключом
 TEST(LinearOnArray, insert_new_value_repit_key)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -47,7 +47,7 @@ TEST(LinearOnArray, insert_new_value_repit_key)
 //Удаление элемента из таблицы
 TEST(LinearOnArray, delete_line)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -58,7 +58,7 @@ TEST(LinearOnArray, delete_line)
 //Удаление элемента из таблицы с несущиствуюшим ключом
 TEST(LinearOnArray, delete_line_not_key)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -69,7 +69,7 @@ TEST(LinearOnArray, delete_line_not_key)
 //Удаление элемента из пустой таблицы
 TEST(LinearOnArray, delete_line_empty_table)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	bool temp = table.Delete("4");
 	EXPECT_EQ(temp, false);
 }
@@ -77,7 +77,7 @@ TEST(LinearOnArray, delete_line_empty_table)
 //Обход таблицы по элементно
 TEST(LinearOnArray, go_table)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -91,7 +91,7 @@ TEST(LinearOnArray, go_table)
 //Обход получение элемента
 TEST(LinearOnArray, get_value)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);
@@ -106,7 +106,7 @@ TEST(LinearOnArray, get_value)
 //Обход получение ключей
 TEST(LinearOnArray, get_key)
 {
-	LinerOnArray<string, int> table;
+	LinearOnArray<string, int> table;
 	table.Insert("1", 1);
 	table.Insert("2", 2);
 	table.Insert("3", 3);

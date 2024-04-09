@@ -2,6 +2,11 @@
 cmake_minimum_required(VERSION 3.28)
 project(testStack)
 
-add_executable(testStack)
-target_sources(testStack PRIVATE Stack_test.cpp Stack_main.cpp)
-target_link_libraries(testStack PRIVATE stacklib)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(Test_Stack Stack_main.cpp Stack_test.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(Test_Stack gtest)

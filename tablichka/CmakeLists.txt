@@ -1,6 +1,7 @@
-#Проекд таблицы с виртуальной таблицой
 cmake_minimum_required(VERSION 3.28)
 project(tablichka)
+
+set(C:/Users/golov/source/repos/123/mp-Lab6/polinom/polinomlib/TPolinom.h/include)
 
 add_subdirectory(HashChain)
 add_subdirectory(HashList)
@@ -10,4 +11,10 @@ add_subdirectory(OrderedOnArray)
 add_subdirectory(Tree)
 add_subdirectory(test_tablichka)
 
-add_executable(tablichka main.cpp)
+add_executable(tablichka main.cpp tablichka.h)
+
+# Включаем директорию с заголовочными файлами polinomlib
+target_include_directories(tablichka PRIVATE C:/Users/golov/source/repos/123/mp-Lab6/polinom/polinomlib/TPolinom.h/include)
+
+# Линкуем с библиотекой polinomlib
+target_link_libraries(tablichka PRIVATE polinomlib)

@@ -3,13 +3,12 @@ C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/gtest/CMakeFiles/gtest.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/gtest/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/polinom.dir
-C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/TPolinom_Test.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/listlib/CMakeFiles/listlib.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/listlib/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/polinomlib/CMakeFiles/polinomlib.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/polinomlib/CMakeFiles/ALL_BUILD.dir
-C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/test/CMakeFiles/test.dir
+C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/test/CMakeFiles/TestPolinom.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/polinom/test/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/CMakeFiles/postfix.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/CMakeFiles/ALL_BUILD.dir
@@ -21,7 +20,7 @@ C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/CMakeFiles/stack.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/stacklib/CMakeFiles/stacklib.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/stacklib/CMakeFiles/ALL_BUILD.dir
-C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/testStack/CMakeFiles/testStack.dir
+C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/testStack/CMakeFiles/Test_Stack.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/postfix/stack/testStack/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/CMakeFiles/tablichka.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/CMakeFiles/ALL_BUILD.dir
@@ -29,7 +28,7 @@ C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashChain/CMakeFiles/Has
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashChain/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashList/CMakeFiles/HashList.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashList/CMakeFiles/ALL_BUILD.dir
-C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/LinerOnArray.dir
+C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/LinearOnArray.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinearOnList/CMakeFiles/LinearOnList.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinearOnList/CMakeFiles/ALL_BUILD.dir
@@ -37,5 +36,5 @@ C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/OrderedOnArray/CMakeFile
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/OrderedOnArray/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/Tree/CMakeFiles/Tree.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/Tree/CMakeFiles/ALL_BUILD.dir
-C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/test_tablichka/CMakeFiles/test_tablichka.dir
+C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/test_tablichka/CMakeFiles/TestTable.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/test_tablichka/CMakeFiles/ALL_BUILD.dir

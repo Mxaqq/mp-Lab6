@@ -2,6 +2,11 @@
 cmake_minimum_required(VERSION 3.28)
 project(HashList)
 
-add_executable(HashList)
-target_sources(HashList PRIVATE HashList.cpp HashList_test.cpp main_test.cpp HashList.h main.cpp)
-target_include_directories(HashList PUBLIC include)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(HashList HashList.cpp main_test.cpp HashList_test.cpp HashList.h main.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(HashList gtest)

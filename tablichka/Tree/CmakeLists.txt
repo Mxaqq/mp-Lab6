@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.28)
 project(Tree)
 
-add_executable(Tree)
-target_sources(Tree PRIVATE Tree.cpp Tree_test.cpp main_test.cpp main.cpp Tree.h Tree.cpp )
-target_include_directories(Tree PUBLIC include)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(Tree Tree.cpp Tree_test.cpp Tree.h main_test.cpp main.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(Tree gtest)

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Tree.h"
-#include "../tablichka.h"
+#include "..\..\tablichka\tablichka.h"
 using namespace std;
 
 

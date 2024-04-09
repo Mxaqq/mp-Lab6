@@ -1,5 +1,5 @@
-#include <gtest.h>
-#include "..\postfix.h"
+#include <..\..\gtest\gtest.h>
+#include "..\..\..\postfix\postfixlib\postfix.h"
 
 //Проверка удаления пробелов
 TEST(Calculator, Remove_Space)

@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\TPolinom_Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\polinom\CMakeLists.txt" />

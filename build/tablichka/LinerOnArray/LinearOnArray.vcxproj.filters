@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\LinearOnArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\LinearOnArray_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\main_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\LinearOnArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinerOnArray\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FAB804E8-9F09-36C9-AE89-C20DE7A4C39E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{78633970-1897-3FD2-B8E1-93944B749A82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\TPolinom_Test.vcxproj">
-      <Project>{91E01F32-F8C0-3C1F-A3D3-F2A247EBA64A}</Project>
-      <Name>TPolinom_Test</Name>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\test\TestPolinom.vcxproj">
+      <Project>{E2409B7E-8CA4-34F0-8E02-DE6CC3E27B94}</Project>
+      <Name>TestPolinom</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\listlib\listlib.vcxproj">
       <Project>{14D4A4E4-2610-3460-8D70-107EB0B44FFE}</Project>
@@ -188,10 +188,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\polinomlib\polinomlib.vcxproj">
       <Project>{C693121D-E441-3B45-B590-6F51AE45967E}</Project>
       <Name>polinomlib</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\polinom\test\test.vcxproj">
-      <Project>{0E68BE87-7A95-3F23-ADE3-8B9733BC8EA9}</Project>
-      <Name>test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

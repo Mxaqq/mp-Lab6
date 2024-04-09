@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "HashChain.h"
-#include "../tablichka.h"
+#include "..\..\tablichka\tablichka.h"
 using namespace std;
 
 

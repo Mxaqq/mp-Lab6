@@ -1,5 +1,5 @@
 #include "../polinomlib/TPolinom.h"
-#include <gtest.h>
+#include <..\..\gtest\gtest.h>
 
 TEST(Polinom, Created_polinom_is_empty) {
 	TPolinom polinom;

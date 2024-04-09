@@ -6,6 +6,4 @@ add_subdirectory(listlib)
 add_subdirectory(polinomlib)
 add_subdirectory(test)
 
-add_executable(polinom main.cpp)
-add_executable(TPolinom_Test TPolinom_Test.cpp)
-target_link_libraries(TPolinom_Test PRIVATE polinomlib listlib)
+add_executable(polinom main.cpp TPolinom_Test.cpp)

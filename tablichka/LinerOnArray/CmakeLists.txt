@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.28)
 project(LinearOnArray)
 
-add_executable(LinerOnArray)
-target_sources(LinerOnArray PRIVATE LinearOnArray.cpp LinearOnArray_test.cpp main_test.cpp main.cpp LinearOnArray.h )
-target_include_directories(LinerOnArray PUBLIC include)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(LinearOnArray LinearOnArray.cpp LinearOnArray_test.cpp LinearOnArray.h main_test.cpp main.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(LinearOnArray gtest)

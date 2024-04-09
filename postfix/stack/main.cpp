@@ -1,14 +1,14 @@
 #include <iostream>
-#include "stacklib/TStack.h"
+#include "..\stack\stacklib\TStack.h"
 using namespace std;
 
-void f(MyStack<double>& a) {
+void f(MaxStack<double>& a) {
 	cout << a.size();
 }
 
 int main() {
 
-	MyStack<double> temp;
+	MaxStack<double> temp;
 	temp.push(1.1);
 	temp.push(2.2);
 	temp.push(3.3);

@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 project(OrderedOnArray)
 
-add_executable(OrderedOnArray)
-target_sources(OrderedOnArray PRIVATE OrderedOnArray.cpp OrderOnArray_test.cpp main_test.cpp OrderedOnArray.h main.cpp )
-target_include_directories(OrderedOnArray PUBLIC include)
+# Указание пути к заголовочным файлам gtest.h
+include_directories(../gtest)
+
+# Добавление исполняемого файла тестов
+add_executable(OrderedOnArray OrderedOnArray.cpp OrderOnArray_test.cpp OrderedOnArray.h main_test.cpp main.cpp)
+
+# Линковка с библиотекой GTest
+target_link_libraries(OrderedOnArray gtest)

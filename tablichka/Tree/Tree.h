@@ -1,5 +1,5 @@
 #include <iostream>
-#include "table.h"
+#include "..\..\tablichka\tablichka.h"
 #include <stack>
 using namespace std;
 

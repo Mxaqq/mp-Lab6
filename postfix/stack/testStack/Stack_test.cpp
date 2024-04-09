@@ -1,5 +1,5 @@
-#include <gtest.h>
-#include "..\stack\stacklib\TStack.h"
+#include <..\..\gtest\gtest.h>
+#include "..\..\..\..\postfix\stack\stacklib\TStack.h"
 
 TEST(Stack, you_can_create_an_object)
 {

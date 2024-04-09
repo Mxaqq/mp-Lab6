@@ -1,5 +1,5 @@
 #pragma once
-#include "..\polinomlib\TPolinom.h"
+#include "..\polinom\polinomlib\TPolinom.h"
 #include <vector>
 using namespace std;
 
