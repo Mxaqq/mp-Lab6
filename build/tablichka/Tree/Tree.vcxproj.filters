@@ -4,12 +4,6 @@
     <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -1,0 +1,114 @@
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/postfix/testPos/CMakeLists.txt
+  postfix_main.cpp
+  postfix_test.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(8,2): error C3861: RemoveSpace: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(8,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(14,2): error C3861: ToDouble: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(14,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(20,2): error C3861: ToDouble: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(20,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(26,2): error C3861: ToStringVar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(26,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(32,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(33,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(34,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(35,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(36,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(37,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(44,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(45,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(46,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(47,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(48,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(54,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(61,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(62,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(63,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(64,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(71,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(72,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(78,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(84,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(90,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(96,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(96,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(96,2): error C3861: a: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(101,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(101,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(101,2): error C3861: a: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(106,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(106,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(106,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(107,52): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(108,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(109,29): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(110,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(111,56): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(117,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(117,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(117,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(118,21): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(119,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(120,23): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(121,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(122,22): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(128,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(128,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(128,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(129,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(130,15): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(137,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(138,3): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(141,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): message : при попытке сопоставить список аргументов "(const char [3], const char [11], int)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(147,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(147,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(147,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(148,13): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149): error C3536: var: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): message : при попытке сопоставить список аргументов "(const char [12], const char [5], bool)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(154,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(154,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(154,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(155,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(156,3): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(158,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(164,15): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(164,35): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(164,55): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(164,75): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(165,16): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(165,37): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(165,58): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(165,79): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,15): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,33): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,51): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,69): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,87): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(172,105): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(173,16): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(173,35): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(173,54): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(173,73): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,15): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,37): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,59): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,81): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,103): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,120): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+  Создание кода...

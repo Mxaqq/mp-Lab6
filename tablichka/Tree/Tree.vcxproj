@@ -128,15 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main_test.cpp" />
     <ClCompile Include="Tree.cpp" />
-    <ClCompile Include="Tree_test.cpp" />
+    <ClCompile Include="Treetest\main_test.cpp" />
+    <ClCompile Include="Treetest\Tree_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="Treetest\CmakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

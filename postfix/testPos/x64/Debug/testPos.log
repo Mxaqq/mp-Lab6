@@ -1,0 +1,5 @@
+﻿  postfix_main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_main.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
+  postfix_test.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
+  Создание кода...

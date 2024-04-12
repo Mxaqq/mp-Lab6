@@ -5,7 +5,7 @@
 //Проверка удаления пробелов
 TEST(Calculator, Remove_Space)
 {
-	EXPECT_EQ("(a+b)",RemoveSpace("(a   +   b)"));
+	EXPECT_EQ("(a+b)", RemoveSpace("(a   +   b)"));
 }
 //Проверка преобразование в целое число
 TEST(Calculator, To_Double_Int)
@@ -133,7 +133,7 @@ TEST(Calculator, Get_Var)
 //Задать переменные без ошибки
 TEST(Calculator, Set_Var)
 {
-	calculator c("((12 + ab) * 4 + c) / 3 + 9 * k - 1");
+	calculator с("((12 + ab) * 4 + c) / 3 + 9 * k - 1");
 	auto k = c.GetVar();
 	k.at("ab") = 10;
 	k.at("c") = 2;

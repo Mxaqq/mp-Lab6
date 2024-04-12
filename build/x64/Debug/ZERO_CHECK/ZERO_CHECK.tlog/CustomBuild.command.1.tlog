@@ -1,0 +1,10 @@
+^C:\USERS\GOLOV\SOURCE\REPOS\123\MP-LAB6\BUILD\CMAKEFILES\CA229E7C7EEB6747E3950AC966952ACA\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/golov/source/repos/123/mp-Lab6/build/lab_6.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

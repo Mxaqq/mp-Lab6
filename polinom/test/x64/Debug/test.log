@@ -1,0 +1,11 @@
+﻿  TestPolinom.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\TestPolinom.cpp(2,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
+  test_main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\test_main.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
+  Создание кода...

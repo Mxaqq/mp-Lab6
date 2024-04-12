@@ -1,0 +1,34 @@
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinearOnList/LOLtest/CMakeLists.txt
+  LinearOnList_test.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\..\..\..\tablichka\LinearOnList\LinearOnList.h(79,18): error C2664: "void List<table<Key,Value>::Line>::erase(size_t)": невозможно преобразовать аргумент 1 из "List<table<Key,Value>::Line>::iterator" в "size_t"
+          with
+          [
+              Key=std::string,
+              Value=int
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\..\..\..\tablichka\LinearOnList\LinearOnList.h(79,25): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\../listlib/TList.h(21,7): message : см. объявление "List<table<Key,Value>::Line>::erase"
+          with
+          [
+              Key=std::string,
+              Value=int
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\..\..\..\tablichka\LinearOnList\LinearOnList.h(79,18): message : при попытке сопоставить список аргументов "(List<table<Key,Value>::Line>::iterator)"
+          with
+          [
+              Key=std::string,
+              Value=int
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\..\..\..\tablichka\LinearOnList\LinearOnList.h(72,1): message : во время компиляции функции-члена класс шаблон "bool LinerOnList<std::string,int>::Delete(Key)"
+          with
+          [
+              Key=std::string
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\LinearOnList_test.cpp(53,14): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool LinerOnList<std::string,int>::Delete(Key)"
+          with
+          [
+              Key=std::string
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LOLtest\LinearOnList_test.cpp(8,27): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "LinerOnList<std::string,int>"
+  main_test.cpp
+  Создание кода...

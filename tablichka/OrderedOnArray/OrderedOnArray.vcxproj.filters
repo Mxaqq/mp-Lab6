@@ -18,13 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main_test.cpp">
+    <ClCompile Include="OOAtest\main_test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="OrderedOnArray.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="OrderOnArray_test.cpp">
+    <ClCompile Include="OOAtest\OrderOnArray_test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="OOAtest\CmakeLists.txt" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,114 @@
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/test_tablichka/CMakeLists.txt
+  table_test.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(7,2): error C3861: RemoveSpace: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(7,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(13,2): error C3861: ToDouble: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(13,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(19,2): error C3861: ToDouble: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(19,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(25,2): error C3861: ToStringVar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(25,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(31,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(32,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(33,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(34,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(35,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(36,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(43,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(44,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(45,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(46,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(47,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(53,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(60,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(61,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(62,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(63,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(70,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(71,17): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(77,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(83,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(89,14): error C3861: CheckFormula: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(95,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(95,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(95,2): error C3861: a: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(100,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(100,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(100,2): error C3861: a: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(105,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(105,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(105,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(106,52): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(107,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(108,29): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(109,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(110,56): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(116,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(116,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(116,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(117,21): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(118,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(119,23): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(120,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(121,22): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(127,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(127,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(127,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(128,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(129,15): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(135,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(135,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(135,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(136,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(137,3): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(140,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(141,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(141,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(141,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(141,2): message : при попытке сопоставить список аргументов "(const char [3], const char [11], int)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(141,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(146,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(146,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(146,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(147,13): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(148): error C3536: var: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(148,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(148,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(148,2): message : при попытке сопоставить список аргументов "(const char [12], const char [5], bool)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(148,2): error C2737: "gtest_ar": необходимо инициализировать объект const
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(153,2): error C2065: calculator: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(153,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(153,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(154,11): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(155,3): error C3536: k: не может использоваться до инициализации
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(157,2): error C2065: c: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(163,15): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(163,35): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(163,55): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(163,75): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(164,16): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(164,37): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(164,58): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(164,79): error C3861: CheckNumber: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,15): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,33): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,51): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,69): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,87): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(171,105): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(172,16): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(172,35): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(172,54): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(172,73): error C3861: CheckChar: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,15): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,37): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,59): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,81): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,103): error C3861: CheckOperator: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\test_tablichka\table_test.cpp(179,120): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+  main_test.cpp
+  Создание кода...

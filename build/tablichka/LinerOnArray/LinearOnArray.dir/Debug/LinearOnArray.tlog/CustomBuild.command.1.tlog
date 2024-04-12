@@ -1,0 +1,10 @@
+^C:\USERS\GOLOV\SOURCE\REPOS\123\MP-LAB6\TABLICHKA\LINERONARRAY\CMAKELISTS.TXT
+setlocal
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/123/mp-Lab6 -BC:/Users/golov/source/repos/123/mp-Lab6/build --check-stamp-file C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

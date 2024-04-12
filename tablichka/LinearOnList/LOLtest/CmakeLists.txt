@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.28)
+project(LOLtest)
+include_directories(../gtest/gtest.h)
+
+
+add_executable(LOLtest LinearOnList_test.cpp main_test.cpp)
+ target_link_libraries(LOLtest gtest)

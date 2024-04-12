@@ -128,15 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main_test.cpp" />
-    <ClCompile Include="OrderedOnArray.cpp" />
-    <ClCompile Include="OrderOnArray_test.cpp" />
+    <ClCompile Include="OOAtest\main_test.cpp" />
+    <ClCompile Include="OOAtest\OrderOnArray_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OrderedOnArray.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="OOAtest\CmakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

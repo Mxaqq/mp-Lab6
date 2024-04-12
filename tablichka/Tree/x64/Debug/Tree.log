@@ -1,0 +1,45 @@
+﻿  main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(103,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(141,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(15,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(15,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(15,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(16,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(16,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp(16,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+  Tree.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(103,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(141,1): error C2563: несоответствие в списке формальных параметров
+  Создание кода...

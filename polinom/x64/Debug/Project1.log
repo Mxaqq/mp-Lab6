@@ -1,3 +1,26 @@
-﻿D:\Новая папка\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: два или более файлов с именем main.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — listlib\src\main.cpp, main.cpp.
+﻿D:\Новая папка\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: два или более файлов с именем main.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — listlib\main.cpp, main.cpp.
+  main.cpp
+  TMonom.cpp
+  TPolinom.cpp
+  main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\main.cpp(52,4): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "TPolinom" (или приемлемое преобразование отсутствует)
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(62,21): message : может быть "TPolinom &TPolinom::operator =(TPolinom &)"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\main.cpp(52,4): message : при попытке сопоставить список аргументов "(TPolinom, TPolinom)"
+  TestPolinom.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\TestPolinom.cpp(2,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
   test_main.cpp
-D:\max\polinom\test\src\test_main.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: gtest.h: No such file or directory,
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\test\test_main.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: ..\..\gtest\gtest.h: No such file or directory,
+  TPolinom_Test.cpp
+  Создание кода...

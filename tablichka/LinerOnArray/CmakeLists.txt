@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.28)
 project(LinearOnArray)
 
 # Указание пути к заголовочным файлам gtest.h
-include_directories(../gtest)
-
+include_directories(../gtest/gtest.h)
+add_subdirectory(LOAtest)
 # Добавление исполняемого файла тестов
-add_executable(LinearOnArray LinearOnArray.cpp LinearOnArray_test.cpp LinearOnArray.h main_test.cpp main.cpp)
+add_executable(LinearOnArray LinearOnArray.h main.cpp)
 
 # Линковка с библиотекой GTest
 target_link_libraries(LinearOnArray gtest)

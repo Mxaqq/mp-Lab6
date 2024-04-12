@@ -3,18 +3,18 @@
 
 TEST(Stack, you_can_create_an_object)
 {
-	ASSERT_NO_THROW(MyStack<int> a);
+	ASSERT_NO_THROW(MaxStack<int> a);
 }
 
 TEST(Stack, can_check_for_emptiness)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	EXPECT_EQ(true,temp.empty());
 }
 
 TEST(Stack, the_stac_is_not_empty)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	for (int i = 0; i < 10; i++) {
 		temp.push(i);
 	}
@@ -23,14 +23,14 @@ TEST(Stack, the_stac_is_not_empty)
 
 TEST(Stack, can_add_objects_1_object)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	temp.push(1);
 	EXPECT_EQ(1, temp.size());
 }
 
 TEST(Stack, can_add_objects_multiple_objects)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	for (int i = 0; i < 10; i++) {
 		temp.push(i);
 	}
@@ -39,20 +39,20 @@ TEST(Stack, can_add_objects_multiple_objects)
 
 TEST(Stack, error_clearing_an_empty_stack)
 {
-	MyStack<int> a;
+	MaxStack<int> a;
 	ASSERT_ANY_THROW(a.pop());
 }
 
 TEST(Stack, there_is_no_error_when_deleting_an_element_from_an_object)
 {
-	MyStack<int> a;
+	MaxStack<int> a;
 	a.push(1);
 	ASSERT_NO_THROW(a.pop());
 }
 
 TEST(Stack, can_clear_the_stack)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	for (int i = 0; i < 10; i++) {
 		temp.push(i);
 	}
@@ -64,7 +64,7 @@ TEST(Stack, can_clear_the_stack)
 
 TEST(Stack, can_get_an_element_from_the_stack)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	for (int i = 0; i < 10; i++) {
 		temp.push(i + 1);
 	}
@@ -76,20 +76,20 @@ TEST(Stack, can_get_an_element_from_the_stack)
 
 TEST(Stack, error_when_getting_an_element_from_an_empty_stack)
 {
-	MyStack<int> a;
+	MaxStack<int> a;
 	ASSERT_ANY_THROW(a.top());
 }
 
 TEST(Stack, can_get_an_object_without_an_error)
 {
-	MyStack<int> a;
+	MaxStack<int> a;
 	a.push(1);
 	ASSERT_NO_THROW(a.top());
 }
 
 TEST(Stack, can_bypass_the_object)
 {
-	MyStack<int> temp;
+	MaxStack<int> temp;
 	for (int i = 0; i < 4; i++) {
 		temp.push(i + 1);
 	}

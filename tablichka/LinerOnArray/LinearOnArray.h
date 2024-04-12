@@ -3,104 +3,115 @@
 #include <vector>
 #include <list>
 using namespace std;
-template <class Key, class Value>
-class LinearOnArray : public table<Key, Value> {
-private:
-    vector<Line<Key, Value>> array;  // Массив строк
 
-    int index = 0;  // Индекс актуальной строки
+template <class Key, class Value>
+class LinerOnArray : public table<Key, Value> {
+private:
+    vector<Line> array; 
+
+    int index = 0; 
 
 public:
-    // Метод поиска строки по ключу
-    Value* Find(Key key) override {
-        for (auto& line : array) {
-            if (line.key == key) {
-                return &line.value;
-            }
-        }
-        return nullptr;
-    }
 
-    // Метод добавления записи в таблицу
-    virtual bool Insert(Key key, Value value) override {
-        if (IsFull()) {
-            return false;
-        }
+    Value* Find(Key key) override;
 
-        // Проверяем, существует ли уже строка с таким ключом
-        int pos = -1;
-        for (int i = 0; i < array.size(); i++) {
-            if (array[i].key == key) {
-                pos = i;
-                break;
-            }
-        }
+    virtual bool Insert(Key key, Value value) override;
 
-        // Если строка с таким ключом уже существует, возвращаем false
-        if (pos != -1) {
-            return false;
-        }
+    virtual bool Delete(Key key) override;
 
-        // Добавляем новую строку в массив
-        array.push_back({ key, value });
-        count++;
-        return true;
-    }
+    Key GetKey(void) const override;
 
-    // Метод удаления записи из таблицы
-    virtual bool Delete(Key key) override {
-        if (IsEmpty()) {
-            return false;
-        }
+    Value GetValuePtr(void) override;
 
-        // Ищем строку с заданным ключом
-        int pos = -1;
-        for (int i = 0; i < array.size(); i++) {
-            if (array[i].key == key) {
-                pos = i;
-                break;
-            }
-        }
+    void Reset(void) override;
 
-        // Если строка не найдена, возвращаем false
-        if (pos == -1) {
-            return false;
-        }
+    bool IsTabEnded(void) override;
 
-        // Удаляем строку из массива
-        array[pos] = array[count - 1];
-        array.pop_back();
-        count--;
-        return true;
-    }
+    void GoNext(void) override;
 
-    // Метод получения ключа актуальной записи
-    Key GetKey(void) const override {
-        return array[index].key;
-    }
 
-    // Метод получения значения актуальной записи
-    Value GetValuePtr(void) override {
-        return array[index].value;
-    }
-
-    // Метод установки актуальной записи на начало таблицы
-    void Reset(void) override {
-        index = 0;
-    }
-
-    // Метод проверки актуальной записи на конец таблицы
-    bool IsTabEnded(void) override {
-        return index == count;
-    }
-
-    // Метод перестановки актуальной записи на следующую строку
-    void GoNext(void) override {
-        if (index == count) {
-            index = 0;
-        }
-        else {
-            index++;
-        }
-    }
 };
+
+template<class Key, class Value>
+bool LinerOnArray<Key, Value>::Insert(Key key, Value value)
+{
+    if (this->IsFull())
+        return false;
+    int pos = -1;
+    for (int i = 0; i < count; i++) {
+        if (array[i].key == key) {
+            pos = i;
+            break;
+        }
+    }
+    if (pos != -1)
+        return false;
+    array.push_back({ key,value });
+    count++;
+    return true;
+}
+
+
+template<class Key, class Value>
+Value* LinerOnArray<Key, Value>::Find(Key key)
+{
+    for (int i = 0; i < count; i++) {
+        if (array[i].key == key) {
+            return &array[i].value;
+        }
+    }
+    return nullptr;
+}
+
+
+template<class Key, class Value>
+bool LinerOnArray<Key, Value>::Delete(Key key)
+{
+    if (this->IsEmpty())
+        return false;
+    int pos = -1;
+    for (int i = 0; i < count; i++) {
+        if (array[i].key == key) {
+            array[i] = array[count - 1];
+            array.pop_back();
+            count--;
+            return true;
+        }
+    }
+    return false;
+}
+
+
+template<class Key, class Value>
+inline Key LinerOnArray<Key, Value>::GetKey(void) const
+{
+    return array[index].key;
+}
+
+template<class Key, class Value>
+inline Value LinerOnArray<Key, Value>::GetValuePtr(void)
+{
+    return array[index].value;
+}
+
+template<class Key, class Value>
+inline void LinerOnArray<Key, Value>::Reset(void)
+{
+    index = 0;
+}
+
+template<class Key, class Value>
+inline bool LinerOnArray<Key, Value>::IsTabEnded(void)
+{
+    return index == count;
+}
+
+template<class Key, class Value>
+inline void LinerOnArray<Key, Value>::GoNext(void)
+{
+    if (index == count)
+        index = 0;
+    else {
+        index++;
+    }
+}

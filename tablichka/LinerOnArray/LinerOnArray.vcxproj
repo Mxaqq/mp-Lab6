@@ -128,9 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinearOnArray.cpp" />
-    <ClCompile Include="LinearOnArray_test.cpp" />
-    <ClCompile Include="main_test.cpp" />
+    <ClCompile Include="LOAtest\LinearOnArray_test.cpp" />
+    <ClCompile Include="LOAtest\main_test.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="LOAtest\CmakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

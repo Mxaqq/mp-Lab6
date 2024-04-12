@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinearOnList.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="LinearOnList_test.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main_test.cpp">
+    <ClCompile Include="LOLtest\LinearOnList_test.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LOLtest\main_test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="LOLtest\CmakeLists.txt" />
   </ItemGroup>
 </Project>

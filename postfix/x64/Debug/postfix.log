@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(184,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(184,13): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(186,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(186,13): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(226,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\postfix.h(513,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\main.cpp(16,7): warning C4101: buf: неиспользованная локальная переменная
+  postfix.vcxproj -> C:\Users\golov\source\repos\123\mp-Lab6\x64\Debug\postfix.exe

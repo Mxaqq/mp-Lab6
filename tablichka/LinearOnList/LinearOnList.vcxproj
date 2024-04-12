@@ -127,16 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinearOnList.cpp" />
-    <ClCompile Include="LinearOnList_test.cpp" />
+    <ClCompile Include="LOLtest\LinearOnList_test.cpp" />
+    <ClCompile Include="LOLtest\main_test.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinearOnList.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="LOLtest\CmakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

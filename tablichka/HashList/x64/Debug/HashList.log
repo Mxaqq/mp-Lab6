@@ -1,0 +1,59 @@
+﻿  HashList.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,19): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(49,2): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashList<Key,Value>"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C2923: std::vector: "Line" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,19): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C2976: std::vector: слишком мало аргументов шаблон
+D:\Новая папка\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C3203: "vector": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(88,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(107,1): error C2563: несоответствие в списке формальных параметров
+  main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,19): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(49,2): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashList<Key,Value>"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C2923: std::vector: "Line" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,19): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C2976: std::vector: слишком мало аргументов шаблон
+D:\Новая папка\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(11,12): error C3203: "vector": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(88,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\HashList.h(107,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(15,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(15,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(15,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(16,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(16,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\HashList\main.cpp(16,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+  Создание кода...

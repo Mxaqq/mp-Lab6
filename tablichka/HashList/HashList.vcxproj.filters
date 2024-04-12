@@ -18,18 +18,16 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="HashList.cpp">
-      <Filter>Файлы ресурсов</Filter>
+    <ClCompile Include="HashLtest\HashList_test.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="HashList_test.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
-    <ClCompile Include="main_test.cpp">
-      <Filter>Файлы ресурсов</Filter>
+    <ClCompile Include="HashLtest\main_test.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="HashLtest\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashList.h">

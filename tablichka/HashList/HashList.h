@@ -7,123 +7,156 @@ using namespace std;
 template <class Key, class Value>
 class HashList : public table<Key, Value> {
 private:
-    vector<vector<Line<Key, Value>>> table;
 
-    struct Index {
+    vector<vector<Line>> vector;
+
+    struct id
+    {
         int vector_id = 0;
         int list_id = 0;
         bool end = false;
-    } index;
+    } id;
+
 
 public:
-    int HashFunction(const string& key) {
-        int result = 0;
-        for (char c : key) {
-            result += c;
+
+    int Hash_func(string key)
+    {
+        int res = 0;
+        for (int i = 0; i < key.length(); i++)
+        {
+            res += key[i];
         }
-        return result;
+
+        return res;
     }
 
-    Value* Find(Key key) override {
-        int vector_id = HashFunction(key);
-        if (vector_id >= table.size()) {
-            return nullptr;
-        }
 
-        for (auto& line : table[vector_id]) {
-            if (line.key == key) {
-                return &line.value;
-            }
-        }
+    Value* Find(Key key) override;
+    virtual bool Insert(Key key, Value value) override;
+    virtual bool Delete(Key key) override;
 
+
+
+    Key GetKey(void) const override;
+    Value GetValuePtr(void) override;
+
+    void Reset(void) override;
+    bool IsTabEnded(void) override;
+    void GoNext(void) override;
+
+
+};
+
+template <class Key, class Value>
+inline Value* HashList<Key, Value>::Find(Key key)
+{
+    int vector_id = Hash_func(key);
+    if (vector_id >= vector.size())
         return nullptr;
-    }
-
-    virtual bool Insert(Key key, Value value) override {
-        if (IsFull()) {
-            return false;
+    for (int i = 0; i < vector[vector_id].size(); i++)
+        if (key == vector[vector_id][i].key)
+        {
+            return &vector[vector_id][i].value;
         }
+    return nullptr;
+}
 
-        int vector_id = HashFunction(key);
-        if (vector_id >= table.size()) {
-            table.resize(vector_id + 1);
-        }
-
-        for (auto& line : table[vector_id]) {
-            if (line.key == key) {
-                return false;
-            }
-        }
-
-        table[vector_id].push_back({ key, value });
-        count++;
-        Reset();
-        return true;
-    }
-
-    virtual bool Delete(Key key) override {
-        if (IsEmpty()) {
-            return false;
-        }
-
-        int vector_id = HashFunction(key);
-        if (vector_id >= table.size()) {
-            return false;
-        }
-
-        for (auto it = table[vector_id].begin(); it != table[vector_id].end(); it++) {
-            if (it->key == key) {
-                table[vector_id].erase(it);
-                count--;
-                Reset();
-                return true;
-            }
-        }
-
+template <class Key, class Value>
+inline bool HashList<Key, Value>::Insert(Key _key, Value _value)
+{
+    int vector_id = Hash_func(_key);
+    if (this->IsFull())
         return false;
+    if (vector_id >= vector.size())
+    {
+        vector.resize(vector_id + 1);
+        vector[vector_id].push_back({ _key,_value });
     }
-
-    Key GetKey(void) const override {
-        return table[index.vector_id][index.list_id].key;
+    else
+    {
+        int size = vector[vector_id].size();
+        for (int i = 0; i < size; i++)
+            if (_key == vector[vector_id][i].key)
+                return false;
+        vector[vector_id].push_back({ _key,_value });
     }
+    count++;
+    Reset();
+    return true;
 
-    Value GetValuePtr(void) override {
-        return table[index.vector_id][index.list_id].value;
-    }
+}
 
-    void Reset(void) override {
-        index.end = false;
-        int i = 0;
-        while (i < table.size() && table[i].empty()) {
-            i++;
+template <class Key, class Value>
+inline bool HashList<Key, Value>::Delete(Key key)
+{
+    int vector_id = Hash_func(key);
+
+    if (vector_id >= vector.size())
+        return false;
+    int size = vector[vector_id].size();
+    for (int i = 0; i < size; i++)
+        if (key == vector[vector_id][i].key) {
+            vector[vector_id].erase(vector[vector_id].begin() + i);
+            count--;
+            Reset();
+            return true;
         }
-        if (i == table.size()) {
-            index.end = true;
+    return false;
+
+}
+
+template<class Key, class Value>
+inline Key HashList<Key, Value>::GetKey(void) const
+{
+    return vector[id.vector_id][id.list_id].key;
+}
+
+template<class Key, class Value>
+inline Value HashList<Key, Value>::GetValuePtr(void)
+{
+    return vector[id.vector_id][id.list_id].value;
+}
+
+template<class Key, class Value>
+inline void HashList<Key, Value>::Reset(void)
+{
+    id.end = false;
+    int i = 0;
+    while (vector.size() > i && vector[i].size() == 0)
+        i++;
+    if (vector.size() == i) {
+        id.end = true;
+        return;
+    }
+    id.vector_id = i;
+    id.list_id = 0;
+}
+
+template<class Key, class Value>
+inline bool HashList<Key, Value>::IsTabEnded(void)
+{
+    return id.end;
+}
+
+template<class Key, class Value>
+inline void HashList<Key, Value>::GoNext(void)
+{
+
+    if (vector[id.vector_id].size() <= id.list_id + 1)
+    {
+        int i = id.vector_id + 1;
+        while (vector.size() > i && vector[i].size() == 0)
+            i++;
+        if (vector.size() == i) {
+            id.end = true;
             return;
         }
-        index.vector_id = i;
-        index.list_id = 0;
+        id.vector_id = i;
+        id.list_id = 0;
     }
-
-    bool IsTabEnded(void) override {
-        return index.end;
+    else
+    {
+        id.list_id += 1;
     }
-
-    void GoNext(void) override {
-        if (table[index.vector_id].size() <= index.list_id + 1) {
-            int i = index.vector_id + 1;
-            while (i < table.size() && table[i].empty()) {
-                i++;
-            }
-            if (i == table.size()) {
-                index.end = true;
-                return;
-            }
-            index.vector_id = i;
-            index.list_id = 0;
-        }
-        else {
-            index.list_id++;
-        }
-    }
-};
+}

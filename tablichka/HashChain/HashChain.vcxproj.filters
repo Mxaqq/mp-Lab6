@@ -21,15 +21,16 @@
     <ClCompile Include="HashChain.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="HashChain_main.cpp">
-      <Filter>Файлы ресурсов</Filter>
+    <ClCompile Include="HashCtest\HashChain_main.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="HashChain_test.cpp">
-      <Filter>Файлы ресурсов</Filter>
+    <ClCompile Include="HashCtest\HashChain_test.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="HashCtest\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashChain.h">

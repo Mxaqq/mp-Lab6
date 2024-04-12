@@ -1,0 +1,8 @@
+#CmakeLists HashChain
+cmake_minimum_required(VERSION 3.28)
+project(HashCtest)
+include_directories(../gtest/gtest.h)
+
+add_executable(HashCtest HashChain_main.cpp HashChain_test.cpp)
+
+target_link_libraries(HashCtest gtest)

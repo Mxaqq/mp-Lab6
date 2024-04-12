@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.28)
 project(HashChain)
 
 # Указание пути к заголовочным файлам gtest.h
-include_directories(../gtest)
-
+include_directories(../gtest/gtest.h)
+add_subdirectory(HashCtest)
 # Добавление исполняемого файла тестов
-add_executable(HashChain HashChain.cpp HashChain_main.cpp HashChain_test.cpp HashChain.h main.cpp)
+add_executable(HashChain HashChain.h main.cpp)
 
 # Линковка с библиотекой GTest
 target_link_libraries(HashChain gtest)

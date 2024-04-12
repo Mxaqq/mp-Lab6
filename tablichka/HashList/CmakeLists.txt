@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.28)
 project(HashList)
 
 # Указание пути к заголовочным файлам gtest.h
-include_directories(../gtest)
-
+include_directories(../gtest/gtest.h)
+add_subdirectory(HashLtest)
 # Добавление исполняемого файла тестов
-add_executable(HashList HashList.cpp main_test.cpp HashList_test.cpp HashList.h main.cpp)
+add_executable(HashList HashList.h main.cpp)
 
 # Линковка с библиотекой GTest
 target_link_libraries(HashList gtest)

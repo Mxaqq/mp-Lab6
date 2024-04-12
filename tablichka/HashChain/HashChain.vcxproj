@@ -128,11 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="HashCtest\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HashChain.cpp" />
-    <ClCompile Include="HashChain_main.cpp" />
-    <ClCompile Include="HashChain_test.cpp" />
+    <ClCompile Include="HashCtest\HashChain_main.cpp" />
+    <ClCompile Include="HashCtest\HashChain_test.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

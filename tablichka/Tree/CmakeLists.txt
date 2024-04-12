@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.28)
 project(Tree)
 
 # Указание пути к заголовочным файлам gtest.h
-include_directories(../gtest)
-
+include_directories(../gtest/gtest.h)
+add_subdirectory(Treetest)
 # Добавление исполняемого файла тестов
-add_executable(Tree Tree.cpp Tree_test.cpp Tree.h main_test.cpp main.cpp)
+add_executable(Tree Tree.cpp Tree.h main.cpp)
 
 # Линковка с библиотекой GTest
 target_link_libraries(Tree gtest)

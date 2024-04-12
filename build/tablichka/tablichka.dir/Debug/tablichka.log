@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/CMakeLists.txt
+  main.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Debug\tablichka.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

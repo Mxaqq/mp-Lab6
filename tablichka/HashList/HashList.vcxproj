@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HashList.cpp" />
-    <ClCompile Include="HashList_test.cpp" />
-    <ClCompile Include="main_test.cpp" />
+    <ClCompile Include="HashLtest\HashList_test.cpp" />
+    <ClCompile Include="HashLtest\main_test.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CmakeLists.txt" />
+    <Text Include="HashLtest\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashList.h" />

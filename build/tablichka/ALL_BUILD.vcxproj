@@ -177,9 +177,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{D4FD03E9-A9A3-3412-9CD5-353456071DD2}</Project>
       <Name>HashChain</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\HashChain\HashCtest\HashCtest.vcxproj">
+      <Project>{FF91E485-DDC8-326B-B2D3-950B7B57D3A5}</Project>
+      <Name>HashCtest</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\HashList\HashList.vcxproj">
       <Project>{E0A4ED29-147D-33DF-9B78-8F9ADEA5A512}</Project>
       <Name>HashList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\HashList\HashLtest\HashLtest.vcxproj">
+      <Project>{1BD8C893-9876-3F3D-A6D4-4AA07737C545}</Project>
+      <Name>HashLtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LOAtest\LOAtest.vcxproj">
+      <Project>{7B3359F4-CEC1-3319-BF4C-AE6442E3303D}</Project>
+      <Name>LOAtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinearOnList\LOLtest\LOLtest.vcxproj">
+      <Project>{511B94DF-D055-35F9-8081-FCC39441B071}</Project>
+      <Name>LOLtest</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\LinearOnArray.vcxproj">
       <Project>{06C05512-DA55-3E77-9837-08498D98CC5D}</Project>
@@ -188,6 +204,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinearOnList\LinearOnList.vcxproj">
       <Project>{66398C66-4DD6-3ABA-814C-E49338516388}</Project>
       <Name>LinearOnList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\OrderedOnArray\OOAtest\OOAtest.vcxproj">
+      <Project>{15108C1C-CCF8-3845-8FE5-2AE6D246746D}</Project>
+      <Name>OOAtest</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\OrderedOnArray\OrderedOnArray.vcxproj">
       <Project>{83E41196-E80B-356C-908B-AFC568B797F0}</Project>
@@ -200,6 +220,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Tree.vcxproj">
       <Project>{A856848A-48AF-30D4-A66A-2758E6944D8C}</Project>
       <Name>Tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Treetest\Treetest.vcxproj">
+      <Project>{6D615133-0FCF-384C-AF90-A12BDA198F24}</Project>
+      <Name>Treetest</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\tablichka.vcxproj">
       <Project>{BAF1ECAC-6694-3DE1-9EEA-9974F62A4C84}</Project>

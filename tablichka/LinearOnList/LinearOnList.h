@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "../tablichka.h"
 #include <vector>
 using namespace std;
@@ -7,10 +7,10 @@ using namespace std;
 template <class Key, class Value>
 class LinerOnList : public table<Key, Value> {
 private:
-    
-    List<Line> array; ///< Ñïèñîê ñòğîê
-    Node<Line>* node; ///< Óêàçàòåëü íà àêòèâíóş ñòğîêó
-    
+
+    List<Line> array; ///< Ã‘Ã¯Ã¨Ã±Ã®Ãª Ã±Ã²Ã°Ã®Ãª
+    Node<Line>* node; ///< Ã“ÃªÃ Ã§Ã Ã²Ã¥Ã«Ã¼ Ã­Ã  Ã ÃªÃ²Ã¨Ã¢Ã­Ã³Ã¾ Ã±Ã²Ã°Ã®ÃªÃ³
+
 
 public:
 
@@ -18,25 +18,23 @@ public:
         node = array.begin();
     };
 
-
     Value* Find(Key key) override;
+
 
     virtual bool Insert(Key key, Value value) override;
 
+ 
     virtual bool Delete(Key key) override;
 
- 
     Key GetKey(void) const override;
-
 
     Value GetValuePtr(void) override;
 
- 
     void Reset(void) override;
 
     bool IsTabEnded(void) override;
 
-
+ 
     void GoNext(void) override;
 
 
@@ -74,19 +72,19 @@ inline bool LinerOnList<Key, Value>::Delete(Key key)
 {
     if (IsEmpty())
         return false;
-    List<Line>::iterator it;
-    it = array.begin();
+    auto it = array.begin(); 
     while (it != array.end()) {
         if ((*it).key == key) {
-            array.erase(it);
+            it = array.erase(it); 
             count--;
             return true;
         }
-        it++;
+        else {
+            ++it; 
+        }
     }
     return false;
 }
-
 template<class Key, class Value>
 inline Key LinerOnList<Key, Value>::GetKey(void) const
 {

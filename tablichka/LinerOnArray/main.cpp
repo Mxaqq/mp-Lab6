@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 	table<string, TPolinom>* table;
-	LinearOnArray<string, TPolinom> temp;
+	LinerOnArray<string, TPolinom> temp;
 	table = &temp;
 
 

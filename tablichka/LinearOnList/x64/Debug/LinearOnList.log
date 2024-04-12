@@ -1,0 +1,83 @@
+﻿  LinearOnList.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(41,2): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "LinerOnList<Key,Value>"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,5): error C2923: List: "Line" не является допустимым аргументом типа шаблон для параметра "T"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,10): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,5): error C2923: Node: "Line" не является допустимым аргументом типа шаблон для параметра "T"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,10): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,26): error C3878: синтаксическая ошибка: непредвиденный маркер "идентификатор" после "expression"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,26): message : пропущено восстановление ошибки: "идентификатор"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(47,5): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(48,12): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(49,15): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(50,23): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(52,9): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(68,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(73,9): error C3861: IsEmpty: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(73,16): message : "IsEmpty": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(75,19): error C3861: Line: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(86,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(75,19): error C2065: Line: необъявленный идентификатор
+  main.cpp
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(77,20): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(79,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(81,16): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(134,29): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): error C2440: инициализация: невозможно преобразовать "TPolinom" в "TPolinom"
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TPolinom.h(126,14): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(41,2): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "LinerOnList<Key,Value>"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,5): error C2923: List: "Line" не является допустимым аргументом типа шаблон для параметра "T"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(11,10): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,5): error C2923: Node: "Line" не является допустимым аргументом типа шаблон для параметра "T"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(12,10): message : см. объявление "Line"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,10): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,26): error C3878: синтаксическая ошибка: непредвиденный маркер "идентификатор" после "expression"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(46,26): message : пропущено восстановление ошибки: "идентификатор"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(47,5): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(48,12): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(49,15): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(50,23): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(52,9): error C2065: it: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(68,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(73,9): error C3861: IsEmpty: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(73,16): message : "IsEmpty": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(75,19): error C3861: Line: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(86,1): error C2563: несоответствие в списке формальных параметров
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\LinearOnList.h(75,19): error C2065: Line: необъявленный идентификатор
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(15,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(15,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(15,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(16,7): error C2664: "bool table<std::string,TPolinom>::Insert(Key,Value)": невозможно преобразовать аргумент 2 из "TPolinom" в "Value"
+          with
+          [
+              Key=std::string,
+              Value=TPolinom
+          ]
+          and
+          [
+              Value=TPolinom
+          ]
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(16,29): message : Создать class "TPolinom" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\tablichka.h(28,18): message : см. объявление "table<std::string,TPolinom>::Insert"
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\LinearOnList\main.cpp(16,7): message : при попытке сопоставить список аргументов "(const char [2], TPolinom)"
+  Создание кода...

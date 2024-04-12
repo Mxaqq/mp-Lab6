@@ -195,6 +195,15 @@ HashChain_IS_TOP_LEVEL:STATIC=OFF
 HashChain_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/HashChain
 
 //Value Computed by CMake
+HashCtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashChain/HashCtest
+
+//Value Computed by CMake
+HashCtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+HashCtest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/HashChain/HashCtest
+
+//Value Computed by CMake
 HashList_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashList
 
 //Value Computed by CMake
@@ -202,6 +211,33 @@ HashList_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 HashList_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/HashList
+
+//Value Computed by CMake
+HashLtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/HashList/HashLtest
+
+//Value Computed by CMake
+HashLtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+HashLtest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/HashList/HashLtest
+
+//Value Computed by CMake
+LOAtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray/LOAtest
+
+//Value Computed by CMake
+LOAtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+LOAtest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/LOAtest
+
+//Value Computed by CMake
+LOLtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinearOnList/LOLtest
+
+//Value Computed by CMake
+LOLtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+LOLtest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinearOnList/LOLtest
 
 //Value Computed by CMake
 LinearOnArray_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/LinerOnArray
@@ -222,6 +258,15 @@ LinearOnList_IS_TOP_LEVEL:STATIC=OFF
 LinearOnList_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinearOnList
 
 //Value Computed by CMake
+OOAtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/OrderedOnArray/OOAtest
+
+//Value Computed by CMake
+OOAtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+OOAtest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/OrderedOnArray/OOAtest
+
+//Value Computed by CMake
 OrderedOnArray_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/OrderedOnArray
 
 //Value Computed by CMake
@@ -238,6 +283,15 @@ Tree_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Tree_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/Tree
+
+//Value Computed by CMake
+Treetest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/tablichka/Tree/Treetest
+
+//Value Computed by CMake
+Treetest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Treetest_SOURCE_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/tablichka/Tree/Treetest
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=C:/Users/golov/source/repos/123/mp-Lab6/build/gtest
@@ -450,7 +504,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
