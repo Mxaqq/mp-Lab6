@@ -16,27 +16,16 @@ protected:
 
     int MaxSize = 10000; 
 public:
-     
     int Count();
-
     bool IsEmpty() const;
-
     bool IsFull();
-
     virtual Value* Find(Key key) = 0;
-
     virtual bool Insert(Key key, Value value) = 0;
-
     virtual bool Delete(Key key) = 0;
-
     virtual Key GetKey(void) const = 0;
-
     virtual Value GetValuePtr(void) = 0;
-
     virtual void Reset(void) = 0;
-
     virtual bool IsTabEnded(void) = 0;
-
     virtual void GoNext(void) = 0;
 
     friend ostream& operator<<(ostream& os, table& tab)

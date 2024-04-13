@@ -1,6 +1,6 @@
 #include <iostream>
-#include "table.h"
-#include "maneger.h"
+#include "tablichka.h"
+#include "maneg.h"
 #include "postfix.h"
 #include <conio.h>
 #include <string>
@@ -206,3 +206,28 @@ int main() {
 			}
 			if (nowwibor == 5) {
 				men.ChooseTable("HashList");
+			}
+			if (nowwibor == 6) {
+				men.ChooseTable("HashChain");
+				nowwibor = 7;
+			}
+			while (nowwibor != 7);
+		}
+
+		} while (wibor != 5);
+		cout << "\tИсправь этот код:\n\n1)Открыть файлы\n2)Следующая страница\n3)Изменить Админ\n";
+}
+int vibor(int kol) {
+	char a;
+	do {
+		a = _getch() - 48;
+	} while (!(a >= 1 && a <= kol));
+	return (int)a;
+}
+int nowvibor(int kol) {
+	char a;
+	do {
+		a = _getch() - 48;
+	} while (!(a >= 1 && a <= kol));
+	return (int)a;
+}

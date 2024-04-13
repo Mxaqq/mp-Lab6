@@ -8,36 +8,22 @@ template <class Key, class Value>
 class LinerOnList : public table<Key, Value> {
 private:
 
-    List<Line> array; ///< Ñïèñîê ñòðîê
-    Node<Line>* node; ///< Óêàçàòåëü íà àêòèâíóþ ñòðîêó
+    List<Line> array;
+    Node<Line>* node;
 
 
 public:
-
     LinerOnList() {
         node = array.begin();
     };
-
     Value* Find(Key key) override;
-
-
     virtual bool Insert(Key key, Value value) override;
-
- 
     virtual bool Delete(Key key) override;
-
     Key GetKey(void) const override;
-
     Value GetValuePtr(void) override;
-
     void Reset(void) override;
-
     bool IsTabEnded(void) override;
-
- 
     void GoNext(void) override;
-
-
 };
 
 template<class Key, class Value>
@@ -66,22 +52,19 @@ inline bool LinerOnList<Key, Value>::Insert(Key key, Value value)
     }
     return false;
 }
-
 template<class Key, class Value>
 inline bool LinerOnList<Key, Value>::Delete(Key key)
 {
     if (IsEmpty())
         return false;
-    auto it = array.begin(); 
+    List<Line>::iterator it;
+    it = array.begin();
     while (it != array.end()) {
         if ((*it).key == key) {
-            it = array.erase(it); 
             count--;
             return true;
         }
-        else {
-            ++it; 
-        }
+        it++;
     }
     return false;
 }

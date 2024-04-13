@@ -1,3 +1,4 @@
+C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/lab_6.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/golov/source/repos/123/mp-Lab6/build/gtest/CMakeFiles/gtest.dir

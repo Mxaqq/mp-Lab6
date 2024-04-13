@@ -3,17 +3,19 @@
 #include <iostream>
 using namespace std;
 
-
 template<class T>
 class List {
-	Node<T>* head;
-	Node<T>* tail;
-	size_t size;
+	Node<T>* head; 
+	Node<T>* tail; 
+	size_t size; 
 	Node<T>* getNode(int index);
 public:
+
 	List();
+
 	~List();
 	void push_back(T value);
+
 	void push_front(T value);
 	void insert(T value, size_t index);
 	void pop_back();
@@ -27,7 +29,11 @@ public:
 	T& back() { return tail->value; }
 	T& front() { return head->value; }
 	bool operator==(const List<T> other);
+
+
+
 public:
+
 	class iterator {
 		Node<T>* t;
 	public:
@@ -47,19 +53,21 @@ public:
 		bool operator!=(const Node<T>* note) {
 			return t != note;
 		}
+		bool operator==(const Node<T>* note) {
+			return t == note;
+		}
 		Node<T>* getNode() {
 			return t;
 		}
 	};
 	Node<T>* begin() { return head; }
 	Node<T>* end() { return (tail == nullptr) ? tail : tail->pNext; }
-
-
 	List(List<T>& other);
 	List<T>& operator=(List<T>& other);
-
 	void insert(T value, List<T>::iterator it);
+	void erase(List<T>::iterator it);
 };
+
 template<class T>
 inline Node<T>* List<T>::getNode(int index)
 {
@@ -82,12 +90,14 @@ inline Node<T>* List<T>::getNode(int index)
 	}
 	return temp;
 }
+
 template<class T>
 List<T>::List() {
 	head = nullptr;
 	tail = nullptr;
 	size = 0;
 }
+
 template<class T>
 inline List<T>::List(List<T>& other) :List()
 {
@@ -98,6 +108,7 @@ inline List<T>::List(List<T>& other) :List()
 		it++;
 	}
 }
+
 template<class T>
 inline List<T>& List<T>::operator=(List<T>& other)
 {
@@ -113,11 +124,13 @@ inline List<T>& List<T>::operator=(List<T>& other)
 	}
 	return *this;
 }
+
 template<class T>
 inline List<T>::~List()
 {
 	clear();
 }
+
 template<class T>
 inline void List<T>::push_back(T value)
 {
@@ -131,6 +144,7 @@ inline void List<T>::push_back(T value)
 	}
 	size++;
 }
+
 template<class T>
 inline void List<T>::push_front(T value)
 {
@@ -145,7 +159,6 @@ inline void List<T>::push_front(T value)
 	}
 	size++;
 }
-
 
 template<class T>
 inline void List<T>::insert(T value, size_t index)
@@ -162,11 +175,9 @@ inline void List<T>::insert(T value, size_t index)
 		temp->pNext->pPrev = newNode;
 		temp->pNext = newNode;
 
-
 		size++;
 	}
 }
-
 
 template<class T>
 inline void List<T>::insert(T value, List<T>::iterator it)
@@ -181,38 +192,27 @@ inline void List<T>::insert(T value, List<T>::iterator it)
 		temp->pNext->pPrev = newNode;
 		temp->pNext = newNode;
 
-
 		size++;
 	}
 }
 
-
 template<class T>
-inline void List<T>::pop_back()
+inline void List<T>::erase(List<T>::iterator it)
 {
-	Node<T>* temp = tail->pPrev;
-	delete tail;
-	tail = temp;
-	if (temp != nullptr)
-		tail->pNext = nullptr;
-	size--;
-}
-
-
-template<class T>
-inline void List<T>::pop_front()
-{
-	Node<T>* temp = head;
-	if (head != nullptr) {
-		head = head->pNext;
-	}
-	if (head != nullptr) {
-		head->pPrev = nullptr;
-	}
+	if (it == head)
+		pop_front();
+	else if (it == tail)
+		pop_back();
 	else {
-		tail = head;
+
+		Node<T>* del = it.getNode();
+		Node<T>* temp = del->pPrev;
+
+		del->pNext->pPrev = temp;
+		temp->pNext = del->pNext;
+
+		delete del;
 	}
-	delete temp;
 	size--;
 }
 
@@ -232,13 +232,40 @@ inline void List<T>::erase(size_t index)
 		del->pNext->pPrev = temp;
 		temp->pNext = del->pNext;
 
-
 		delete del;
 		size--;
 	}
 
 }
 
+
+template<class T>
+inline void List<T>::pop_back()
+{
+	Node<T>* temp = tail->pPrev;
+	delete tail;
+	tail = temp;
+	if (temp != nullptr)
+		tail->pNext = nullptr;
+	size--;
+}
+
+template<class T>
+inline void List<T>::pop_front()
+{
+	Node<T>* temp = head;
+	if (head != nullptr) {
+		head = head->pNext;
+	}
+	if (head != nullptr) {
+		head->pPrev = nullptr;
+	}
+	else {
+		tail = head;
+	}
+	delete temp;
+	size--;
+}
 
 template<class T>
 inline void List<T>::clear()
@@ -249,13 +276,11 @@ inline void List<T>::clear()
 	head = tail = nullptr;
 }
 
-
 template<class T>
 inline T& List<T>::operator[](size_t index)
 {
 	return getNode(index)->value;
 }
-
 
 template<class T>
 inline T& List<T>::at(size_t index)
@@ -264,7 +289,6 @@ inline T& List<T>::at(size_t index)
 		throw exception("of range");
 	return this->operator[](index);
 }
-
 
 template<class T>
 inline bool List<T>::operator==(List<T> other)
@@ -275,7 +299,6 @@ inline bool List<T>::operator==(List<T> other)
 	it1 = this->begin();
 	it2 = other.begin();
 
-
 	while (it1 != this->end()) {
 		if (!((*it1) == (*it2)))
 			return false;
@@ -284,8 +307,3 @@ inline bool List<T>::operator==(List<T> other)
 	}
 	return true;
 }
-
-
-
-
-

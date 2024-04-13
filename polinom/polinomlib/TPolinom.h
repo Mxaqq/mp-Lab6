@@ -4,28 +4,43 @@
 #include <string>
 
 
-const int nonDisplayedZeros = 4; // Êîëè÷åñòâî íåîòîáðàæàåìûõ íóëåé ïðè âûâîäå êîýôôèöèåíòà ïîëèíîìà
-
-
+const int nonDisplayedZeros = 4; 
 string RemoveSpace(string s);
+
 class TPolinom
 {
 public:
-	List<TMonom> list;
+	List<TMonom> list; 
+
 	TPolinom(TPolinom& other);
 	TPolinom() {};
 	TPolinom(string str);
-	TPolinom& operator=(TPolinom& other); // ïðèñâàèâàíèå
-	TPolinom& operator+(TPolinom& q); // ñëîæåíèå ïîëèíîìîâ
+	TPolinom& operator=(TPolinom& other);
+	TPolinom operator+(TPolinom& q);
+	TPolinom operator-(TPolinom& q);
 	void setPolinom(string s);
-	// äîïîëíèòåëüíî ìîæíî ðåàëèçîâàòü:
-	void operator+(TMonom newMonom); // äîáàâëåíèå ìîíîìà
-	TPolinom operator*(TMonom monom); // óìíîæåíèå ìîíîìîâ 
-	TPolinom operator*(double coef); // óìíîæåíèå ïîëèíîìà íà ÷èñëî 
-	TPolinom operator* (TPolinom& other); // óìíîæåíèå ïîëèíîìîâ
-	bool operator==(TPolinom& other); // ñðàâíåíèå ïîëèíîìîâ íà ðàâåíñòâî
-	string ToString(); // ïåðåâîä â ñòðîêó
+	void operator+(TMonom newMonom);
+	TPolinom operator*(TMonom monom);
+	TPolinom operator*(double coef);
+	TPolinom operator* (TPolinom& other);
+	bool operator==(TPolinom& other);
+	string ToString(); 
+	friend ostream& operator<<(ostream& os, TPolinom& polinom)
+	{
+		cout << polinom.ToString() << endl;
+		return os;
+	}
+	TPolinom derivative(char c);
+	TPolinom Integral(char c);
+	TPolinom operator/(TMonom monom);
+	TPolinom operator/(double coef);
+	TPolinom operator/(TPolinom& other);
+
+	string ToPostfix();
+
+
 };
+
 void TPolinom::setPolinom(string s) {
 	list.clear();
 	s = RemoveSpace(s);
@@ -51,19 +66,23 @@ void TPolinom::setPolinom(string s) {
 		this->operator+(TMonom(temp));
 	}
 }
+
 TPolinom::TPolinom(TPolinom& other)
 {
 	this->list = other.list;
 }
+
 TPolinom::TPolinom(string str)
 {
 	setPolinom(str);
 }
+
 TPolinom& TPolinom::operator=(TPolinom& other)
 {
 	this->list = other.list;
 	return *this;
 }
+
 void TPolinom::operator+(TMonom m)
 {
 	List<TMonom>::iterator it;
@@ -79,21 +98,33 @@ void TPolinom::operator+(TMonom m)
 		}
 		it++;
 	}
+	if (!flag && (*it).coef == 0)
+		list.erase(it);
 	if (flag && m.coef != 0)
 		list.insert(m, it);
 }
-TPolinom& TPolinom::operator+(TPolinom& other)
+
+
+TPolinom TPolinom::operator+(TPolinom& other)
 {
+	TPolinom temp = *this;
 	List<TMonom>::iterator it;
 	it = other.list.begin();
 	while (it != other.list.end()) {
-		this->operator+(*it);
+		temp.operator+(*it);
 		it++;
 	}
 
-
-	return *this;
+	return temp;
 }
+
+inline TPolinom TPolinom::operator-(TPolinom& q)
+{
+	TPolinom temp = q * (-1);
+	return (*this) + temp;
+}
+
+
 TPolinom TPolinom::operator*(TMonom monom)
 {
 	TPolinom temp = *this;
@@ -104,9 +135,9 @@ TPolinom TPolinom::operator*(TMonom monom)
 		it++;
 	}
 
-
 	return temp;
 }
+
 TPolinom TPolinom::operator*(double coef)
 {
 	List<TMonom>::iterator it;
@@ -117,6 +148,7 @@ TPolinom TPolinom::operator*(double coef)
 	}
 	return *this;
 }
+
 TPolinom TPolinom::operator*(TPolinom& other)
 {
 	TPolinom temp;
@@ -130,13 +162,12 @@ TPolinom TPolinom::operator*(TPolinom& other)
 	*this = temp;
 	return *this;
 }
-bool TPolinom::operator==(TPolinom& other) 
+
+bool TPolinom::operator==(TPolinom& other)
 {
-	if (list == other.list) {
-		return true;
-	}
-	return false;
+	return this->list == other.list;
 }
+
 
 string TPolinom::ToString()
 {
@@ -144,6 +175,14 @@ string TPolinom::ToString()
 	List<TMonom>::iterator it;
 	it = list.begin();
 	while (it != list.end()) {
+		if ((*it).coef == 0) {
+			it++;
+			continue;
+		}
+
+		if ((*it).index == 0 && (int)(*it).coef == 1) {
+			result += to_string(abs((int)(*it).coef));
+		}
 		if (abs((*it).coef) != 1) {
 			result += std::to_string(abs((int)(*it).coef));
 		}
@@ -170,8 +209,119 @@ string TPolinom::ToString()
 				result += " + ";
 		}
 	}
+	if (result[result.size() - 2] == '+') {
+		result.pop_back();
+		result.pop_back();
+	}
 	return result;
 }
+
+inline TPolinom TPolinom::derivative(char c)
+{
+	TPolinom temp = *this;
+	List<TMonom>::iterator it;
+	it = temp.list.begin();
+	while (it != temp.list.end()) {
+		(*it) = (*it).derivative(c);
+		it++;
+	}
+
+	return temp;
+}
+
+inline TPolinom TPolinom::Integral(char c)
+{
+	TPolinom temp = *this;
+	List<TMonom>::iterator it;
+	it = temp.list.begin();
+	while (it != temp.list.end()) {
+		(*it) = (*it).Integral(c);
+		it++;
+	}
+
+	return temp;
+}
+
+inline TPolinom TPolinom::operator/(TMonom monom)
+{
+	List<TMonom>::iterator it;
+	it = list.begin();
+	while (it != list.end()) {
+		(*it) = (*it) / monom;
+		it++;
+	}
+	return *this;
+}
+
+inline TPolinom TPolinom::operator/(double coef)
+{
+	List<TMonom>::iterator it;
+	it = list.begin();
+	while (it != list.end()) {
+		(*it).coef /= coef;
+		it++;
+	}
+	return *this;
+}
+
+inline TPolinom TPolinom::operator/(TPolinom& other)
+{
+	if (other.list.Size() > 1)
+		throw exception("eror");
+
+	*this = *this / other.list[0];
+	return *this;
+}
+
+inline string TPolinom::ToPostfix()
+{
+	string result;
+	List<TMonom>::iterator it;
+	it = list.begin();
+	while (it != list.end()) {
+		if ((*it).coef == 0) {
+			it++;
+			continue;
+		}
+		if ((*it).index == 0 && (int)(*it).coef == 1) {
+			result += to_string(abs((int)(*it).coef));
+		}
+		if (abs((*it).coef) != 1) {
+			result += std::to_string(abs((int)(*it).coef)) + "*";
+		}
+		if ((*it).index / 100 != 0) {
+			result += "x";
+			if ((*it).index / 100 != 1)
+				result += "^" + std::to_string((*it).index / 100);
+			result += "*";
+		}
+		if ((*it).index % 100 / 10 != 0) {
+			result += "y";
+			if ((*it).index % 100 / 10 != 1)
+				result += "^" + std::to_string((*it).index % 100 / 10);
+			result += "*";
+		}
+		if ((*it).index % 10 != 0) {
+			result += "z";
+			if ((*it).index % 10 != 1)
+				result += "^" + std::to_string((*it).index % 10);
+		}
+		if (result[result.size() - 1] == '*')
+			result.pop_back();
+		it++;
+		if (it != list.end()) {
+			if ((*it).coef < 0)
+				result += " - ";
+			else
+				result += " + ";
+		}
+	}
+	return result;
+}
+
+
+
+
 string RemoveSpace(string s)
 {
 	int i = 0;
