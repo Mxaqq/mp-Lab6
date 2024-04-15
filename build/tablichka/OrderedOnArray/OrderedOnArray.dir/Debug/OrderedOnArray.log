@@ -1,3 +1,4 @@
-﻿  main.cpp
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/OrderedOnArray/CMakeLists.txt
+  main.cpp
 C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(152): warning C4172: возвращение адреса локальной или временной переменной : temp
   OrderedOnArray.vcxproj -> C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\OrderedOnArray\Debug\OrderedOnArray.exe

@@ -1,2 +1,5 @@
-﻿  table_test.cpp
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/test_tablichka/CMakeLists.txt
+  table_test.cpp
+  main_test.cpp
+  Создание кода...
   TestTable.vcxproj -> C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\test_tablichka\Debug\TestTable.exe

@@ -1,3 +1,4 @@
-﻿  main.cpp
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/tablichka/LinerOnArray/CMakeLists.txt
+  main.cpp
 C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(152): warning C4172: возвращение адреса локальной или временной переменной : temp
   LinearOnArray.vcxproj -> C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\LinerOnArray\Debug\LinearOnArray.exe

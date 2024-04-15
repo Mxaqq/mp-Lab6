@@ -5,7 +5,7 @@ project(Tree)
 include_directories(../gtest/gtest.h)
 add_subdirectory(Treetest)
 # Добавление исполняемого файла тестов
-add_executable(Tree Tree.cpp Tree.h main.cpp)
+add_executable(Tree Tree.h main.cpp)
 
 # Линковка с библиотекой GTest
 target_link_libraries(Tree gtest)

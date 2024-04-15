@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/CMakeLists.txt
+  main.cpp
 C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(152): warning C4172: возвращение адреса локальной или временной переменной : temp
 C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(103): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,TPolinom>::Insert: значение возвращается не при всех путях выполнения
 C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(141): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,TPolinom>::Delete: значение возвращается не при всех путях выполнения

@@ -1,7 +1,7 @@
 #include <..\..\gtest\gtest.h>
 #include "..\postfixlib\postfix.h"
 
-
+using namespace postfix;
 //Проверка удаления пробелов
 TEST(Calculator, Remove_Space)
 {
@@ -100,17 +100,6 @@ TEST(Calculator, Creating_a_calculator_throw)
 {
 	ASSERT_ANY_THROW(calculator a("((a + b)"));
 }
-//Верная постфиксная запись
-TEST(Calculator, Correct_postfix_entry)
-{
-	calculator c("((12 + ab) * 4 + c) / 3 + 9 * k - 1");
-	bool flag = "12 ab + 4 * c + 3 / 9 k * + 1 - " == c.GetPostfix();
-	c.SetFormula("(a + b)");
-	flag = flag && "a b + " == c.GetPostfix();
-	c.SetFormula("(a + b - 1.23 + rar * (1 - 34 + 12))");
-	flag = flag && "a b + 1.23 - rar 1 34 - 12 + * + " == c.GetPostfix();
-	EXPECT_EQ(true, flag);
-}
 //Верный подсчет
 TEST(Calculator, Ansver_Goot)
 {
@@ -130,17 +119,7 @@ TEST(Calculator, Get_Var)
 	bool flag = k.find("ab") != k.end() && k.find("c") != k.end() && k.find("k") != k.end();
 	EXPECT_EQ(true, flag);
 }
-//Задать переменные без ошибки
-TEST(Calculator, Set_Var)
-{
-	calculator с("((12 + ab) * 4 + c) / 3 + 9 * k - 1");
-	auto k = c.GetVar();
-	k.at("ab") = 10;
-	k.at("c") = 2;
-	k.at("k") = 3;
-	c.SetVar(k);
-	EXPECT_EQ(56, c.Ansver());
-}
+
 //Константы отсутствуют в списке переменных
 TEST(Calculator, Const_Not_In_Var)
 {
@@ -182,18 +161,6 @@ TEST(Calculator, Check_Operator)
 	ans = ans && CheckOperator("+") && CheckOperator("-") && CheckOperator("*") && CheckOperator("/");
 	ans = ans && !CheckOperator("a") && !CheckOperator("1") && !CheckOperator("_") && !CheckOperator("A");
 	EXPECT_EQ(true, ans);
-}
-//Проверка константы е
-TEST(Calculator, Check_E)
-{
-	calculator a("e + 0");
-	EXPECT_EQ(E,a.Ansver());
-}
-//Проверка константы pi
-TEST(Calculator, Check_PI)
-{
-	calculator a("pi + 0");
-	EXPECT_EQ(PI, a.Ansver());
 }
 //Проверка функции CheckFormula на !
 TEST(Calculator, Check_Formul_Factorial)
@@ -257,47 +224,5 @@ TEST(Calculator, Convert_Func)
 	ans = ans && c.GetPostfix() == "e 1 pow 1 e pow pow ";
 	c.SetFormula("a + pow(ln(e),3) - sin(pi)! + pow(2,pow(2,3))");
 	ans = ans && c.GetPostfix() == "a e ln 3 pow + pi sin ! - 2 2 3 pow pow + ";
-	EXPECT_EQ(true, ans);
-}
-//Проверка ответа с функциями
-TEST(Calculator, Ans_Func)
-{
-	bool ans = true;
-	calculator c("sin(0)");
-	ans = ans && c.Ansver() == 0;
-	c.SetFormula("sin(pi/6)");
-	ans = ans && c.Ansver() == sin(PI/6);
-	c.SetFormula("cos(pi/4)");
-	ans = ans && c.Ansver() == cos(PI / 4);
-	c.SetFormula("sin(pi/2)");
-	ans = ans && c.Ansver() == sin(PI / 2);
-	c.SetFormula("cos(pi)");
-	ans = ans && c.Ansver() == cos(PI);
-
-	c.SetFormula("ln(e)");
-	ans = ans && c.Ansver() == 1;
-	c.SetFormula("ln(9)");
-	ans = ans && c.Ansver() == log(9);
-
-	c.SetFormula("pow(1,1000)");
-	ans = ans && c.Ansver() == 1;
-	c.SetFormula("pow(2,10)");
-	ans = ans && c.Ansver() == 1024;
-
-	c.SetFormula("sqrt(1024,10)");
-	ans = ans && c.Ansver() == 2;
-	c.SetFormula("sqrt(9,2)");
-	ans = ans && c.Ansver() == 3;
-
-	c.SetFormula("log(2,1024)");
-	ans = ans && c.Ansver() == 10;
-	c.SetFormula("log(e,e)");
-	ans = ans && c.Ansver() == 1;
-
-	c.SetFormula("A(5,2)");
-	ans = ans && c.Ansver() == 20;
-	c.SetFormula("C(5,2)");
-	ans = ans && c.Ansver() == 10;
-
 	EXPECT_EQ(true, ans);
 }

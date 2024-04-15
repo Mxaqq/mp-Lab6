@@ -305,7 +305,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.cpp" />
     <ClInclude Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h" />
     <ClCompile Include="C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\main.cpp" />
   </ItemGroup>
