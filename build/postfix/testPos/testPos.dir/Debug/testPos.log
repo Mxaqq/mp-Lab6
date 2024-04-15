@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Users/golov/source/repos/123/mp-Lab6/postfix/testPos/CMakeLists.txt
-  postfix_main.cpp
-  postfix_test.cpp
+﻿  postfix_test.cpp
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(8,2): error C3861: RemoveSpace: идентификатор не найден
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(8,2): error C2737: "gtest_ar": необходимо инициализировать объект const
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(14,2): error C3861: ToDouble: идентификатор не найден
@@ -58,15 +56,15 @@ C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(128,13)
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(129,11): error C2065: c: необъявленный идентификатор
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(130,15): error C3536: k: не может использоваться до инициализации
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,2): error C2065: calculator: необъявленный идентификатор
-C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
-C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C3861: c: идентификатор не найден
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "с"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(136,13): error C3861: с: идентификатор не найден
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(137,11): error C2065: c: необъявленный идентификатор
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(138,3): error C3536: k: не может использоваться до инициализации
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(141,2): error C2065: c: необъявленный идентификатор
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2065: c: необъявленный идентификатор
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
-C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
-C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): message : при попытке сопоставить список аргументов "(const char [3], const char [11], int)"
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(142,2): error C2737: "gtest_ar": необходимо инициализировать объект const
@@ -76,8 +74,8 @@ C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(147,13)
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(148,13): error C2065: c: необъявленный идентификатор
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149): error C3536: var: не может использоваться до инициализации
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): error C2660: testing::internal::EqHelper<false>::Compare: функция не принимает 3 аргументов
-C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
-C:\Users\golov\source\repos\123\mp-Lab6\gtest\include\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\..\..\gtest\gtest.h(18924,36): message : см. объявление "testing::internal::EqHelper<false>::Compare"
+C:\Users\golov\source\repos\123\mp-Lab6\postfix\postfixlib\..\..\gtest\gtest.h(18910,36): message : может быть "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)"
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): message : "testing::AssertionResult testing::internal::EqHelper<false>::Compare(const char *,const char *,const T1 &,const T2 &)": ожидаются аргументы 4 — 3 предоставлены
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): message : при попытке сопоставить список аргументов "(const char [12], const char [5], bool)"
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(149,2): error C2737: "gtest_ar": необходимо инициализировать объект const
@@ -111,4 +109,3 @@ C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,59)
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,81): error C3861: CheckOperator: идентификатор не найден
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,103): error C3861: CheckOperator: идентификатор не найден
 C:\Users\golov\source\repos\123\mp-Lab6\postfix\testPos\postfix_test.cpp(180,120): fatal  error C1003: число ошибок превышает 100; остановка компиляции
-  Создание кода...

@@ -1,1 +1,27 @@
-﻿  Tree.vcxproj -> C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Debug\Tree.exe
+﻿  Tree.cpp
+  main.cpp
+  Создание кода...
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(152): warning C4172: возвращение адреса локальной или временной переменной : temp
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(103): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,TPolinom>::Insert: значение возвращается не при всех путях выполнения
+C:\Users\golov\source\repos\123\mp-Lab6\tablichka\Tree\Tree.h(141): warning C4715: Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,TPolinom>::Delete: значение возвращается не при всех путях выполнения
+C:\Users\golov\source\repos\123\mp-Lab6\polinom\polinomlib\TMonom.h(152): warning C4172: возвращение адреса локальной или временной переменной : temp
+main.obj : error LNK2005: "bool __cdecl CheckNumber(char)" (?CheckNumber@@YA_ND@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "bool __cdecl CheckChar(char)" (?CheckChar@@YA_ND@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "bool __cdecl CheckRes(char)" (?CheckRes@@YA_ND@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "double __cdecl ToDouble(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int &)" (?ToDouble@@YANV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAH@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl ToStringVar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int &)" (?ToStringVar@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AEAH@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: __cdecl TMonom::TMonom(void)" (??0TMonom@@QEAA@XZ) уже определен в Tree.obj
+main.obj : error LNK2005: "public: __cdecl TMonom::TMonom(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0TMonom@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl RemoveSpace(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?RemoveSpace@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: __cdecl TPolinom::TPolinom(class TPolinom &)" (??0TPolinom@@QEAA@AEAV0@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: __cdecl TPolinom::TPolinom(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0TPolinom@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class TPolinom & __cdecl TPolinom::operator=(class TPolinom &)" (??4TPolinom@@QEAAAEAV0@AEAV0@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class TPolinom __cdecl TPolinom::operator+(class TPolinom &)" (??HTPolinom@@QEAA?AV0@AEAV0@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: void __cdecl TPolinom::setPolinom(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setPolinom@TPolinom@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: void __cdecl TPolinom::operator+(struct TMonom)" (??HTPolinom@@QEAAXUTMonom@@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class TPolinom __cdecl TPolinom::operator*(struct TMonom)" (??DTPolinom@@QEAA?AV0@UTMonom@@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class TPolinom __cdecl TPolinom::operator*(double)" (??DTPolinom@@QEAA?AV0@N@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class TPolinom __cdecl TPolinom::operator*(class TPolinom &)" (??DTPolinom@@QEAA?AV0@AEAV0@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: bool __cdecl TPolinom::operator==(class TPolinom &)" (??8TPolinom@@QEAA_NAEAV0@@Z) уже определен в Tree.obj
+main.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl TPolinom::ToString(void)" (?ToString@TPolinom@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) уже определен в Tree.obj
+C:\Users\golov\source\repos\123\mp-Lab6\build\tablichka\Tree\Debug\Tree.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
